@@ -2668,11 +2668,11 @@ def m_news(how_write,how_day,way=r'.\tmp.txt'):
 
 if __name__ == '__main__':
 
-    file_name1 = r'C:\Users\gutou\Desktop\news\10_9_news.txt'   # 文件名
-    # file_name1 = r'.\news.txt'  # 文件名
+    # file_name1 = r'C:\Users\gutou\Desktop\news\10_9_news.txt'   # 文件名
+    file_name1 = r'.\news.txt'  # 文件名
 
-    file_name2 = r'C:\Users\gutou\Desktop\news\10_9_bugnews.txt'   # 文件名
-    # file_name2 = r'.\bugnews.txt'  # 文件名
+    # file_name2 = r'C:\Users\gutou\Desktop\news\10_9_bugnews.txt'   # 文件名
+    file_name2 = r'.\bugnews.txt'  # 文件名
     days = 0        # 几天以内的新闻（0代表今天）
     #
     try:
