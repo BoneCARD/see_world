@@ -6,6 +6,7 @@ import print_time.click_time as click
 import urllib3
 import ssl
 from lxml import etree
+# import Cookie
 
 def spider(n_url,n_header=0):
     if(n_header==0):
@@ -20,8 +21,8 @@ def spider(n_url,n_header=0):
         else:
             if(n_header==2):
                 headers = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-                    'Cookie': '__jsluid=7b7a496218ccf130103334d424693762; csrftoken=qq1qva6gB6teYCbVR98w9KYuznqHqTE9; Hm_lvt_6b15558d6e6f640af728f65c4a5bf687=1538237060,1538308814,1538656061,1538843155; Hm_lpvt_6b15558d6e6f640af728f65c4a5bf687=1538844173; __jsl_clearance=1538861279.44|0|eLjw89YCtKe2D9xL578po3ymXgY%3D'
+                    'User-Agent': ' Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
+                    'Cookie': '__jsluid=21af2a4d78d30f5b3703cf7c16fbe61f; __jsl_clearance=1538903692.356|0|0wTbM6MXzWWzmMyIZLFp62qbMc0%3D'
                 }
             else:
                 if(n_header==3):
@@ -1453,6 +1454,88 @@ def ten_7(how_write,how_day,way=r'.\tmp.txt'):
     a.write("---------------------"+'\n')
     a.close()
 
+def ten_8(how_write,how_day,way=r'.\tmp.txt'):    #arbor
+    n_url = "http://www.secist.com/"
+    a = open(way, str(how_write), encoding='utf-8')
+    a.write("--------------产量少")
+    a.write(n_url+"\n")
+    a.close()
+    html_text,flag2 = spider(n_url)
+################################测试
+    ################将网站源码放到文本
+    # a = open(r'./tmp.txt','w',encoding='utf-8')
+    #     # a.write(html_text)
+    #     # a.close()
+    ###############打印源码
+    # print(html_text)
+    ###########找新闻在哪
+    n=0
+    soup = BeautifulSoup(html_text, 'html.parser')
+    get_news = soup.find_all('article')  #找有某属性的标签
+    # print(get_news[n])
+    ###############新闻信息分类
+    #####时间
+    # n_time = get_news[n].find_all('span')[1].text
+    # print(n_time)
+    ##用模块re提取
+    # n_time = re.findall('(.*?)T', (get_news[n].find('time').attrs['datetime']))[0]
+    # print(n_time)
+    ##用模块xpath提取出不在某个具体标签中的元素
+    # n_time1 = etree.HTML(str(n_time)).xpath('//div[@class="item-label"]/text()')
+    # print(n_time1)
+    # ####
+    # print(n_time1[n])
+    #####标题
+    # n_title = get_news[n].h2.a.text
+    # print(n_title)
+    #####内容
+    # n_detail = get_news[n].find('p',{'class':'note'}).text
+    # print(n_detail)
+    #####链接
+    # n_url = get_news[n].h2.a.attrs['href']
+    # print(n_url)
+#############################################################
+    a = open(way, 'a', encoding='utf-8')
+    # a = open(r'.\tmp'+st+'.html', 'a',encoding='utf-8')
+    if(flag2 != 3):
+        # soup = BeautifulSoup(html_text, 'html.parser')
+        # get_news = soup.find_all('div', {'class':'col-md-4'})
+        n=0
+
+        while(n<1):
+            ##时间
+            n_time = get_news[n].find_all('span')[1].text
+        ########只显示how_day内的新闻
+            # span_time = click.day_span(n_time)
+            # if((n!=0)&(span_time>how_day)):
+            #     break
+            # if(span_time==-1):
+            #     print(n_url+"时间格式有问题")
+            #     break
+        ########只显示how_day内的新闻
+            ##标题
+            n_title = get_news[n].h2.a.text
+            ##内容
+            n_detail = get_news[n].find('p',{'class':'note'}).text
+            ##链接
+            n_url = get_news[n].h2.a.attrs['href']
+
+            a.write(str(n_time).strip()+'\n')
+        ################不用翻译组
+            # a.write(n_title.strip()+'\n')
+            # a.write(str(n_detail).strip()+'\n')
+        ################翻译组
+            # a.write(n_title.strip()+'\n')
+            a.write(Youdao.go(n_title.strip())+'\n')
+            # a.write(str(n_detail).strip()+'\n')
+            a.write(Youdao.go(str(n_detail).strip()) + '\n')
+            #####################
+            a.write(n_url+'\n')
+            a.write('\n')
+            n = n+1
+    a.write("---------------------"+'\n')
+    a.close()
+
 def three_1(how_write,how_day,way=r'.\tmp.txt',header=0):
     n_url = "https://www.exploit-db.com/remote/"
     a = open(way, str(how_write), encoding='utf-8')
@@ -2668,13 +2751,13 @@ def m_news(how_write,how_day,way=r'.\tmp.txt'):
 
 if __name__ == '__main__':
 
-    # file_name1 = r'C:\Users\gutou\Desktop\news\10_9_news.txt'   # 文件名
+    # file_name1 = r'C:\Users\gutou\Desktop\10_6_news.txt'   # 文件名
     file_name1 = r'.\news.txt'  # 文件名
 
-    # file_name2 = r'C:\Users\gutou\Desktop\news\10_9_bugnews.txt'   # 文件名
+    # file_name2 = r'C:\Users\gutou\Desktop\10_6_bugnews.txt'   # 文件名
     file_name2 = r'.\bugnews.txt'  # 文件名
-    days = 0        # 几天以内的新闻（0代表今天）
-    #
+    days = 1        # 几天以内的新闻（0代表今天）
+
     try:
         eight('w',days,file_name1)
     except(IndexError):
@@ -2708,8 +2791,8 @@ if __name__ == '__main__':
     # print('\n')
     ten_6('a', days, file_name1)
     ten_7('a',days,file_name1)
-
-    #############漏洞信息
+    ten_8('a', days, file_name1)
+    #############漏洞信息aa
     three_1('w', days, file_name2)    # head = 1
     three_2('a', days, file_name2)
     three_3('a', days, file_name2)
@@ -2718,7 +2801,9 @@ if __name__ == '__main__':
     three_6('a', days, file_name2)    # head = 1
     three_7('a', days, file_name2)
     three_8('a', days, file_name2)
+    three_9('a', days, file_name2)    # head = 2
     three_10('a', days, file_name2)
-    three_12('a', days, file_name2)
-    three_9('a', days, file_name2)  # head = 2
     three_11('a', days, file_name2)     # head = 3
+    three_12('a',days,file_name2)
+
+
