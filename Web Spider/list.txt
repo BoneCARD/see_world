@@ -13,6 +13,8 @@
 14 https://threatpost.com/
 15 https://exploit.kitploit.com/
 16 https://labs.nettitude.com/
+17 http://blogs.360.cn/archives
+18 http://www.secist.com/
 xx https://www.esat.kuleuven.be/cosic/news/
 xx https://threatvector.cylance.com/en_us/home.html
 
