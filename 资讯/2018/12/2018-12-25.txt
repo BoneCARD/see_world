@@ -1,24 +1,51 @@
 ﻿安全-资讯
+从几起热点事件看2018年的暗网趋势
+“暗网”， 一个原本局限在IT行业和部分不法群体中的名词，却在2018年不断刷新大众的认知。在媒体报道中，“暗网”常与“个人信息”、“勒索”、“黑市”等字眼相伴，化身为各类犯罪信息汇聚和违法交易横行的“不法之地”。由于“暗网” 需要通过特殊的加密通道访问，极具匿名性和隐蔽性，访问者和服务器都难以被溯源，导致人性的丑恶在此毫无遮掩。早年间隐匿于暗网的海盗湾（The Pirate Bay）曾被称为“世界上最大的BT种子服务器”，而从2017年开始陆续被FBI等机构捣毁的丝绸之路（Silk road）、阿尔法湾（AlphaBay）和汉萨（Hansa）则是当时规模领先的暗网交易平台。
+https://www.anquanke.com/post/id/168570
+
 
 
 
 
 黑客-事件
+针对韩国长达5年的跨境网络电信诈骗
+电信诈骗自诞生以来并迅速发展蔓延，诈骗手法也随着科技发展不断更新，而随着Android设备的普及，诈骗手法进一步升级，Android木马也开始被应用于电信诈骗，360烽火实验室对此类木马保持着持续的关注，早在2016年就发表了一篇针对网络电信诈骗的报告《深入分析跨平台网络电信诈骗》，深入分析还原了跨平台网络电信诈骗的整个过程。近期，360烽火实验室捕获到了一个针对韩国的跨境网络电信诈骗木马家族，该家族自2013年活跃至今，最初伪装成一些韩国工具类应用，后期伪装成韩国金融贷款类应用，通过窃取受害者短息、通话记录、联系人，并劫持受害人的电话实施电信诈骗。进一步分析表明，木马作者的母语非韩语，主要通过钓鱼网站发起攻击，钓鱼网站服务器分布在韩国境外，并且该家族样本数量在重大节假日前后会出现一个较大的波动。我们根据其包名和代码特点，认为该家族存在两个分支，并将其分别命名为SmartSpy和HelloxSpy。
+https://www.anquanke.com/post/id/168621
 
 
 
 
 工具-脚本
+PA工具包 - 专注于安全性的流量分析插件集合
+PA Toolkit是一组流量分析插件，用于将Wireshark的功能从微分析工具和协议解析器扩展到宏分析器和威胁猎手。PA Toolkit包含插件（包括解剖器和分接头），涵盖多种协议的各种场景，包括：WiFi（WiFi网络摘要，检测信标，deauth洪水等）、HTTP（列出所有访问过的网站，下载的文件）、HTTPS（列出所有在HTTPS上打开的网站）、ARP（MAC-IP表，检测MAC 欺骗和ARP中毒）、DNS（列出使用的DNS服务器和DNS解析，检测DNS隧道）
+https://www.kitploit.com/2018/12/pa-toolkit-collection-of-traffic.html
 
-
-
-
+Pocsuite v2.0.8 - 由Knownsec安全团队开发的远程漏洞测试框架
+Pocsuite是由Knownsec安全团队开发的开源远程漏洞测试和概念验证开发框架。它配备了强大的概念验证引擎，为终极渗透测试人员和安全研究人员提供了许多利基功能。Pocsuite与seebug PoC搜索和zoomeye dork
+https://github.com/knownsec/Pocsuite
 
 最新-漏洞
+Telegram 4.9.1的“秘密聊天”功能有一个“侧通道”，在这个“侧通道”中，Telegram服务器在发送聊天消息之前，会在撰写聊天消息时发送GET请求，要求输入url。还有对同一web服务器上的其他url的GET请求。这也会影响到一个或多个其他电报产品，例如电报web版本0.7.0。此外，它可以被解释为一个SSRF问题。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20436
 
+An issue was discovered on Xiaomi Mi A1 tissot_sprout:8.1.0/OPM1.171019.026/V9.6.4.0.ODHMIFE devices. They store cleartext Wi-Fi passwords in logcat during the process of setting up the phone as a hotspot.
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18698
+
+小米Mi A1 tissot_sprout:8.1.0/OPM1.171019.026/V9.6.4.0上发现问题。ODHMIFE设备。在将手机设置为热点时，他们将明文Wi-Fi密码存储在logcat中。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18698
+
+Apple iOS(Combo)密码绕过漏洞（CNVD-2018-26455）
+Apple iOS是为移动设备所开发的一套操作系统。Apple iOS(Combo)存在密码绕过漏洞。允许本地攻击者访问敏感理想数据，如联系人、图片库或默认应用程序。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26455
 
 
 安全-研究
+一个使用cve-2017-11882和cve-2018-0802组合漏洞的恶意文档分析
+近日截获一个扩展名为doc的word文档攻击样本，其格式其实是RTF格式。通过分析该文档组合利用了cve-2017-11882和cve-2018-0802漏洞，并且使用内嵌的excel对象用于触发漏洞。释放的PE文件用于搜集目标用户的敏感信息。在实验环境（win764、office2010）打开文档，进行进程监控，发现winword进程执行后，首先执行excel.exe，然后运行EQNEDT32.exe，接着运行cmd.exe，最后运行进程A.X，其中EQNEDT32.exe运行了两次。看到EQNEDT32.exe，瓶感觉应该是cve-2017-11882或者cve-2018-0802的样本。
+https://www.anquanke.com/post/id/168455
 
+WordPress Plugin AutoSuggest插件SQL注入复现与分析
+WP AutoSuggest 这款插件在访问者输入关键字时，插件会在提交搜索查询之前通过AJAX请求在网页中显示一些建议。访问者可以通过按Enter继续搜索，或者访问者可以使用键盘箭头直接访问建议的帖子。
+https://www.freebuf.com/vuls/191869.html
 
 
