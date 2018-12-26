@@ -39,6 +39,8 @@ https://www.theregister.co.uk/2018/12/26/2018_gdpr_roundup/
 Pocsuite 是由知道创宇404实验室打造的一款开源的远程漏洞测试框架。它是知道创宇安全研究团队发展的基石，是团队发展至今一直维护的一个项目，保障了我们的 Web 安全研究能力的领先。你可以直接使用 Pocsuite 进行漏洞的验证与利用；你也可以基于 Pocsuite 进行 PoC/Exp 的开发，因为它也是一个 PoC 开发框架；同时，你还可以在你的漏洞测试工具里直接集成 Pocsuite，它也提供标准的调用类。
 http://pocsuite.org/
 
+用于比较PDB文件中的符号的Diff工具
+https://github.com/WalkingCat/SymDiff
 
 最新-漏洞
 Nuxeo 认证绕过和RCE漏洞 (CVE-2018-16341)
