@@ -1,17 +1,26 @@
 ﻿安全-资讯
+移动支付最常见安全问题是个人信息泄露
+新华网消息 12月24日，中国支付清算协会（简称“支付清算协会”）公布了《2018年移动支付用户调研报告》。报告显示，个人信息泄露是用户使用移动支付过程中最常遇到的安全问题。2018年，用户认为在支付过程中遇到的安全问题排名第一位是个人信息被泄露，占比为81.0%；排名第二位是手机扫描到伪假条码，占比为70.1%；排名第三位是账户资金被盗用，占比为67.5%；最后是付款码发送给他人，占比为41.2%。报告称，用户最期望市场主体及时进行支付风险提示和畅通投诉渠道，保障移动支付安全和客户合法权益。支付清算协会有关负责人认为，这说明用户除了关注自身账户资金安全，对个人隐私信息的保护意识也在增强，需要广大市场主体在提供移动支付服务的同时，也要加强对用户敏感信息的保护，在信息采集、处理、存储、使用等环节建立起符合监管、安全完善的管理机制。
+https://zhuanlan.kanxue.com/article-5656.htm
 
 
 
 
 黑客-事件
-
+又诞生了一个新的更Powerful的挖矿木马
+没错，现在市面上又诞生了一种功能更强大的恶意挖矿软件。这款恶意软件名叫KingMiner，它可以利用Windows Server CPU的全部算力来挖矿。值得一提的是，它的攻击频率越来越高了，但是检测率却越来越低…
+https://zhuanlan.kanxue.com/article-5654.htm
 
 
 
 工具-脚本
+Infoga - 信息收集工具
+Infoga是一个收集来自不同公共来源（搜索引擎，pgp密钥服务器和shodan）的电子邮件帐户信息（ip，主机名，国家/地区）的工具，并使用haveibeenpwned.com API 检查电子邮件是否泄露。这是一个非常简单的工具，但对于渗透测试的早期阶段非常有效，或者只是为了了解公司在互联网上的可见性。 
+https://www.kitploit.com/2018/12/infoga-email-osint.html
 
-
-
+Keyfinder - 用于查找和分析私人（和公共）密钥文件的工具，包括对Android APK文件的支持
+CERT Keyfinder是一个实用程序，用于查找和分析文件系统上的关键文件以及Android APK文件中包含的关键文件。CERT Keyfinder开发由美国国土安全部（DHS）赞助。
+https://www.kitploit.com/2018/12/keyfinder-tool-for-finding-and.html
 
 
 最新-漏洞
@@ -19,8 +28,13 @@ WordPress权限通过帖子类型升级
 WordPress创建博客文章的方式存在逻辑缺陷，允许攻击者访问管理员应该拥有的功能。这导致WordPress核心中的存储XSS和对象注入以及WordPress最受欢迎的插件Contact Form 7和Jetpack中的更严重的漏洞。
 https://www.seebug.org/vuldb/ssvid-97751
 
+Discuz! DiscuzX身份认证绕过漏洞
+Discuz! DiscuzX是一套在线论坛系统。Discuz! DiscuzX 3.4版本中存在身份认证绕过漏洞，当微信登录被启用时，远程攻击者可借助一个非空的#wechat#common_member_wechatmp利用该漏洞绕过身份验证，获取账户的访问权限。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26768
 
-
+Discuz! DiscuzX逻辑权限漏洞
+Discuz! DiscuzX是一套在线论坛系统。Discuz! DiscuzX 3.4版本中存在逻辑缺陷漏洞，当微信登录被启用时，远程攻击者可通过发送不存在的wxopenid值利用该漏洞绕过禁用限制的设置。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26764
 
 
 
@@ -32,3 +46,7 @@ https://www.freebuf.com/vuls/192013.html
 74cms v4.2.111权限逻辑漏洞分析
 注册一个用户，创建简历，随后修改求职意向，可导致修改任意人员并泄露个人信息。
 http://www.iwantacve.cn/index.php/archives/104/
+
+Windows10 v1709特权提升：GDI Palette滥用
+以往我们都会采用Bitmap objects来构造RW primitive，但从v1709开始，微软将Bitmap header与Bitmap data部分分离，无法通过Bitmap header取得pvscan0指针的内核地址，Bitmap Abuse的方法失效。现在，我们来关注另一种GDI结构Palette objects，研究如何用于Windows10 1709 Kernel Privilege Escalation
+https://www.anquanke.com/post/id/168572
