@@ -14,6 +14,10 @@ https://www.secjuice.com/iran-cyber-capabilities-implications-for-us/
 没错，现在市面上又诞生了一种功能更强大的恶意挖矿软件。这款恶意软件名叫KingMiner，它可以利用Windows Server CPU的全部算力来挖矿。值得一提的是，它的攻击频率越来越高了，但是检测率却越来越低…
 https://zhuanlan.kanxue.com/article-5654.htm
 
+CYBER PODCAST：APT和政府黑客的成长世界
+许多方面，2018年是第一个奇怪的一年。然而，在政府黑客的世界里，它几乎感觉更像是：每个人都在黑客攻击并监视每个人。世界上的网络超级大国 - 美国，它的“五眼”盟友（英国，澳大利亚，加拿大和新西兰），中国和俄罗斯 - 在许多人认为新的战争领域都是可以预见的。但网络不再是超级大国的游戏了。伊朗，朝鲜以及中东和非洲的无数其他小国正在迎头赶上。今年最奇怪，最引人入胜的关于APT或高级持续性威胁的研究之一，就像他们用行话所说的那样 - 发现了一个黎巴嫩政府联系小组，它正在监视全世界成千上万的目标。
+https://motherboard.vice.com/en_us/article/pa59bz/cyber-podcast-eva-galperin
+
 2018年俄罗斯非法网上销售酒精的市场规模超过3000万美元
 安全公司Group-IB估计，2018年俄罗斯非法网上销售酒精的市场规模超过  3000万美元 ， 比2017年增加近  580万美元（+ 23％）。Group-IB品牌保护团队共发现了大约  4,000个  非法销售酒精的网站。犯罪分子通过其在线酒类商店的“镜像网站”创建整个网络; 如果一个站点被阻止，他们会迅速迁移到备份资源。
 https://securityaffairs.co/wordpress/79239/cyber-crime/illegal-online-sales-alcohol.html
