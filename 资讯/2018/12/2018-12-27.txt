@@ -14,6 +14,12 @@ https://www.secjuice.com/iran-cyber-capabilities-implications-for-us/
 没错，现在市面上又诞生了一种功能更强大的恶意挖矿软件。这款恶意软件名叫KingMiner，它可以利用Windows Server CPU的全部算力来挖矿。值得一提的是，它的攻击频率越来越高了，但是检测率却越来越低…
 https://zhuanlan.kanxue.com/article-5654.htm
 
+2018年俄罗斯非法网上销售酒精的市场规模超过3000万美元
+安全公司Group-IB估计，2018年俄罗斯非法网上销售酒精的市场规模超过  3000万美元 ， 比2017年增加近  580万美元（+ 23％）。Group-IB品牌保护团队共发现了大约  4,000个  非法销售酒精的网站。犯罪分子通过其在线酒类商店的“镜像网站”创建整个网络; 如果一个站点被阻止，他们会迅速迁移到备份资源。
+https://securityaffairs.co/wordpress/79239/cyber-crime/illegal-online-sales-alcohol.html
+
+成千上万的BevMo客户受到支付卡违规的影响
+葡萄酒和酒类商店BevMo警告客户违反支付卡并向当局报告此事件。 葡萄酒和白酒商店BevMo遭遇了支付卡违规，黑客窃取了信用卡号码以及来自网站上购买商品的14,000多名客户的其他信息。该公司已通知加利福尼亚州检察长办公室，威胁演员已将软件撇取器注入网站的结账页面。
 
 
 工具-脚本
