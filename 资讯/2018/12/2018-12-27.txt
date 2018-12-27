@@ -15,10 +15,20 @@
 
 
 最新-漏洞
+WordPress权限通过帖子类型升级
+WordPress创建博客文章的方式存在逻辑缺陷，允许攻击者访问管理员应该拥有的功能。这导致WordPress核心中的存储XSS和对象注入以及WordPress最受欢迎的插件Contact Form 7和Jetpack中的更严重的漏洞。
+https://www.seebug.org/vuldb/ssvid-97751
+
+
+
 
 
 
 安全-研究
+Flash 0Day: CVE-2018-15982 Exploit复现
+2018年12月5日，360发表博客《“毒针”行动 – 针对“俄罗斯总统办所属医疗机构”发起的0day攻击》披露了其在2018年11月29日捕获到的使用Flash 0day：CVE-2018-15982漏洞配合微软Office Word文档发起的APT攻击事件。文章从攻击流程，漏洞成因，漏洞利用，补丁分析，攻击载荷分析等多角度全面介绍了这次攻击的技术细节，非常值得大家仔细阅读学习。
+https://www.freebuf.com/vuls/192013.html
 
-
-
+74cms v4.2.111权限逻辑漏洞分析
+注册一个用户，创建简历，随后修改求职意向，可导致修改任意人员并泄露个人信息。
+http://www.iwantacve.cn/index.php/archives/104/
