@@ -1,4 +1,9 @@
 ﻿安全-资讯
+12306恐中招！400万数据遭泄露，请尽快更改密码！
+春节临近，相信大多数人都已经将买火车票提上了日程。然而，近日12306的账号信息疑似遭到泄露。今日，网络上有微信公众号(wstart)爆出12306数据已遭泄露，暗网有人兜售60万账号及410万联系人信息，且目前已有2人购买。并提供了如下截图：
+https://zhuanlan.kanxue.com/article-5686.htm
+
+
 
 
 
@@ -15,10 +20,29 @@
 
 
 最新-漏洞
+Chat Anywhere extension for Chrome 跨站脚本漏洞
+Chat Anywhere extension for Chrome是一款使用在Google Chrome浏览器中的在线聊天插件。Chat Anywhere extension for Chrome 2.4.0版本中存在跨站脚本漏洞，该漏洞源于chatbox-only\danmu.js文件中的danmuWrapper DIV元素不在内容安全策略的范围内。远程攻击者可借助特制的消息利用该漏洞注入任意的Web脚本或HTML。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201812-1169
+
+Artifex Software Ghostscript 安全漏洞
+Artifex Software Ghostscript是美国Artifex Software公司的一款开源的PostScript（一种用于电子产业和桌面出版领域的页面描述语言和编程语言）解析器，它可显示Postscript文件以及在非Postscript打印机上打印Postscript文件。Artifex Software Ghostscript中存在安全漏洞。攻击者可借助特制的PDF文件利用该漏洞造成拒绝服务（无限循环）。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201812-1171
+
+响响租车APP存在越权访问漏洞
+响响租车APP是一款汽车租赁应用。响响租车APP存在越权访问漏洞。攻击者可利用漏洞抓包获取其他用户敏感信息。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26085
 
 
 
 安全-研究
+EOS 回滚攻击手法分析之重放篇
+据慢雾区情报，今日凌晨，攻击 BetDice、ToBet 等游戏的黑客团伙再次对 LuckyMe、GameBet 发动攻击，造成数千 EOS 的损失。经过慢雾安全团队的分析，此次黑客采用的手法有别于上一次的攻击。本次的攻击为针对项目方的重放攻击。
+https://paper.seebug.org/776/
 
+Elasticsearch核心插件Kibana本地文件包含漏洞分析（CVE-2018-17246）
+不久前Elasticsearch发布了最新安全公告， Elasticsearch Kibana6.4.3之前版本和5.6.13之前版本中的Console插件存在严重的本地文件包含漏洞可导致拒绝服务攻击、任意文件读取攻击、配合第三方应用反弹SHELL攻击，下文笔者对其漏洞背景、攻击原理和行为进行分析和复现。
+https://www.freebuf.com/vuls/192401.html
 
-
+ThinkPHP5 RCE漏洞重现及分析
+近日，thinkphp发布了安全更新，修复一个可getshell的rce漏洞，由于没有有效过滤$controller，导致攻击者可以利用命名空间的方式调用任意类的方法，进而getshell。
+https://www.freebuf.com/vuls/191847.html
