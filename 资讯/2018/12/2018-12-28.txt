@@ -1,51 +1,49 @@
 ﻿安全-资讯
-12306恐中招！400万数据遭泄露，请尽快更改密码！
-春节临近，相信大多数人都已经将买火车票提上了日程。然而，近日12306的账号信息疑似遭到泄露。今日，网络上有微信公众号(wstart)爆出12306数据已遭泄露，暗网有人兜售60万账号及410万联系人信息，且目前已有2人购买。并提供了如下截图：
-https://zhuanlan.kanxue.com/article-5686.htm
-
-
+360安全大脑带你回顾2018重大网络安全事件
+https://www.anquanke.com/post/id/168972
 
 
 
 
 黑客-事件
-
+黑客攻击 Electrum 钱包窃取到 200 多比特币
+黑客或黑客组织通过攻击 Electrum 比特币钱包的基础设施窃取到了 200 多比特币，价值大约 75 万美元。攻击者针对的是 Electrum 钱包应用的弱点，Electrum 钱包网络可以加入服务器，而服务器可以对钱包应用弹出警告信息。攻击者首先给网络加入了几十台恶意服务器，当用户进行比特币交易时如果交易通过了一个恶意服务器，他们的钱包会收到更新通知，当用户从黑客的 GitHub 库里下载恶意更新重新启动后会要求输入二步认证代码，黑客窃取了二步认证代码后就能转移走用户钱包里的比特币。
+https://zhuanlan.kanxue.com/article-5691.htm
 
 
 
 工具-脚本
+ShellPhish v1.7
+针对18种社交媒体的网络钓鱼工具：Instagram，Facebook，Snapchat，Github，Twitter，Yahoo，Protonmail，Spotify，Netflix，Linkedin，Wordpress，Origin，Steam，微软，InstaFollowers，Gitlab，Pinterest
+https://github.com/thelinuxchoice/shellphish
 
-
-
+Linux 内核VMA-UAF 提权漏洞（CVE-2018-17182）,0day
+Google Project Zero的网络安全研究人员发布了详细信息，并针对自内核版本3.16到4.18.8以来Linux内核中存在的高严重性漏洞的概念验证（PoC）漏洞利用。由白帽黑客Jann Horn发现，内核漏洞（CVE-2018-17182）是Linux内存管理子系统中的缓存失效错误，导致释放后使用漏洞，如果被利用，可能允许攻击者获得root权限目标系统上的特权.免费使用后（UAF）漏洞是一类内存损坏错误，非特权用户可利用这些错误来破坏或更改内存中的数据，从而导致拒绝服务（系统崩溃）或升级权限以获得管理权限访问系统。Linux内核漏洞于9月18日在oss-security邮件列表中公开，并在第二天在上游支持的稳定内核版本4.18.9,4.14.71,4.9.128和4.4.157中进行了修补.
+https://github.com/jas502n/CVE-2018-17182
 
 
 最新-漏洞
-Chat Anywhere extension for Chrome 跨站脚本漏洞
-Chat Anywhere extension for Chrome是一款使用在Google Chrome浏览器中的在线聊天插件。Chat Anywhere extension for Chrome 2.4.0版本中存在跨站脚本漏洞，该漏洞源于chatbox-only\danmu.js文件中的danmuWrapper DIV元素不在内容安全策略的范围内。远程攻击者可借助特制的消息利用该漏洞注入任意的Web脚本或HTML。
-http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201812-1169
+Sky Elite 6.0 l + Android设备，构建指纹为Sky /x6069_trx_l601_sky/x6069_trx_l601_sky:6.0/MRA58K/1482897127:user/release-keys，包含预安装平台app，包名为com.fw.upgrade。sysoper (versionCode=238, versionName=2.3.8)，它包含一个名为com.adups.fota.sysoper的导出广播接收应用程序组件。WriteCommandReceiver，允许设备上的任何应用程序提供任意命令作为系统用户执行。com.fw.upgrade。sysoper用户和应用程序不能被禁用的攻击可以由zero-permission应用。执行命令,系统用户可以允许第三方应用视频记录用户的屏幕,工厂重置设备,获得用户的通知,读logcat日志,注入事件图形用户界面(GUI),更改默认输入法编辑器(IME)(例如,键盘)和一个包含在难眠攻击应用程序,其中包含键盘记录器功能,获取用户的文本消息，等等。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15007
 
-Artifex Software Ghostscript 安全漏洞
-Artifex Software Ghostscript是美国Artifex Software公司的一款开源的PostScript（一种用于电子产业和桌面出版领域的页面描述语言和编程语言）解析器，它可显示Postscript文件以及在非Postscript打印机上打印Postscript文件。Artifex Software Ghostscript中存在安全漏洞。攻击者可借助特制的PDF文件利用该漏洞造成拒绝服务（无限循环）。
-http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201812-1171
+Vivo V7 Android设备构建指纹为Vivo /1718/1718:7.1.2/N2G47H/compil11021857:user/release-keys，包含一个平台app，包名为com.vivo。bsptest (versionCode=1, versionName=1.0)包含一个名为com.vivo.bsptest的导出活动应用程序组件。允许位于设备上的任何应用程序开始将logcat日志、蓝牙日志和内核日志写入外部存储的BSPTestActivity。启用日志记录时，状态栏中有一个通知，所以它对用户不完全透明。用户可以取消日志记录，但可以重新启用，因为应用程序的包名是com.vivo。无法禁用bsptest。这些日志的写入可以由位于设备上的一个应用程序发起，尽管应用程序访问日志文件需要READ_EXTERNAL_STORAGE权限。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15001
 
-响响租车APP存在越权访问漏洞
-响响租车APP是一款汽车租赁应用。响响租车APP存在越权访问漏洞。攻击者可利用漏洞抓包获取其他用户敏感信息。
-http://www.cnvd.org.cn/flaw/show/CNVD-2018-26085
+libextractor - Debian安全更新
+在libextractor中发现了一些漏洞，这是一个从文件中提取任意元数据的库，如果处理格式错误的OLE文件，可能会导致拒绝服务或内存泄露。对于稳定分布（拉伸），这些问题已在版本1中修复：1.3-4 + deb9u3。我们建议您升级libextractor包。
+https://www.debian.org/security/2018/dsa-4361
 
 
 
 安全-研究
-EOS 回滚攻击手法分析之重放篇
-据慢雾区情报，今日凌晨，攻击 BetDice、ToBet 等游戏的黑客团伙再次对 LuckyMe、GameBet 发动攻击，造成数千 EOS 的损失。经过慢雾安全团队的分析，此次黑客采用的手法有别于上一次的攻击。本次的攻击为针对项目方的重放攻击。
-https://paper.seebug.org/776/
-
 Elasticsearch核心插件Kibana本地文件包含漏洞分析（CVE-2018-17246）
 不久前Elasticsearch发布了最新安全公告， Elasticsearch Kibana6.4.3之前版本和5.6.13之前版本中的Console插件存在严重的本地文件包含漏洞可导致拒绝服务攻击、任意文件读取攻击、配合第三方应用反弹SHELL攻击，下文笔者对其漏洞背景、攻击原理和行为进行分析和复现。
 https://www.freebuf.com/vuls/192401.html
 
-ThinkPHP5 RCE漏洞重现及分析
-近日，thinkphp发布了安全更新，修复一个可getshell的rce漏洞，由于没有有效过滤$controller，导致攻击者可以利用命名空间的方式调用任意类的方法，进而getshell。
-https://www.freebuf.com/vuls/191847.html
+ARM汇编之内存损坏：堆栈溢出
+本篇文章适用于想要学习ARM汇编在漏洞方面的骚年们。特别是对那些对ARM平台上的漏洞利用写作感兴趣的人，本篇文章是根据azeria-labs.com上面的教程自学而成，总结出一些属于自己的一些学习成果，特意分享给大家。您可能已经注意到ARM处理器无处不在，就像我们日常用的Android、IOS系统都因了ARM处理器架构。当我环顾四周时，我可以计算出比我的处理器更多的家用ARM处理器的设备。这包括电话，路由器，不要忘记最近销售似乎爆炸的物联网设备。也就是说，ARM处理器已成为全球最广泛的CPU核心之一。这使我们认识到，像PC一样，物联网设备容易受到不正确的输入验证滥用，例如缓冲区溢出。鉴于基于ARM的设备的广泛使用以及滥用的可能性，对这些设备的攻击变得更加普遍。不管你是想学嵌入式、漏洞挖掘、Android开发等都是需要了解ARM，快来入手新的技能吧！
+https://www.freebuf.com/vuls/192709.html
 
-
-
+新手向——IO_file全流程浅析
+在当前CTF比赛中，“伪造IO_FILE”是pwn题里一种常见的利用方式，并且有时难度还不小。它的起源来自于Hitcon CTF 2016的house of orange，历经两年，这种类型题目不断改善，越改越复杂，但核心不变，理解io流在程序中的走向，就能很好的迎接挑战。然，网上虽资料不少，但是要么源码过多，对初学者很不友好，要么单提解题思路，令人云里雾里，疑惑百出。而这些让我催生出了这篇文章，若有不实不详之处，希望各位师傅指点。本文主要分为三个部分，首先简单介绍下“伪造IO_FILE”的攻击流程和思路，其次会利用几道ctf题目来详细讲解攻击原理，最后由glibc链接库近年的变化做一个总结。争取用最少的源码做最好的解释。
+https://www.anquanke.com/post/id/168802
