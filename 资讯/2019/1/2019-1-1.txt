@@ -1,11 +1,55 @@
 ﻿安全-资讯
+黑暗网络市场在第3季度看到了进化
+漏洞，被盗凭证和市场的演变标志着第三季度的黑暗网络。
+根据McAfee的Q3分析，随着Hansa和AlphaBay在黑暗网络上被拆除，梦想市场和华尔街市场已经成为地下犯罪的最大市场。与此同时，漏洞和被盗凭证继续在网络犯罪讨论中占据主导地位。
+用于销售麻醉品，黑客工具，黑客雇用和数据记录的非法游乐场，即使在执法行动之后，这些市场也继续蓬勃发展。根据 迈克菲本月的威胁研究，Hansa和AlphaBay的破坏在本季度产生了连锁反应，将网络犯罪分子推向竞争的小型市场，包括梦幻市场，华尔街市场和奥林巴斯市场。
+然而，报告指出，“奥林巴斯市场正在成为最畅销的市场之一，在第三季度突然消失”。“有人猜测，失踪是由市场管理者发起的退出计划，以便从他们自己的供应商和客户那里窃取资金。”
+迈克菲表示，与此同时，一些个人卖家已经离开大市场并开设了自己的特定市场。
+报告称，“他们希望能够在执法的监视下飞行，并与客户建立信任的关系，而不必担心市场主的快速退出。” “这种转变引发了新的业务：Defiant网站设计师为有抱负的供应商提供隐藏的市场。”
+迈克菲指出，窃取大部分利润的被盗数字数据将继续成为大型市场和更多利基地下黑客论坛的关键动力。这些论坛不易受公众欢迎，专注于与网络犯罪相关的主题，主要依靠泄露的用户凭据。
+https://threatpost.com/threatlist-dark-web-markets-see-an-evolution-in-q3/140470/?utm_source=dlvr.it&utm_medium=twitter
+
+黑客威胁要转储与9/11袭击相关的保险文件
+黑暗霸王似乎试图利用关于911恐怖袭击的阴谋论。
+新年前夕星期一，一名黑客组织宣布，它违反了一家律师事务所处理与911事件有关的案件，并威胁要公开发布大量相关内部档案，除非他们的赎金要求得到满足。
+这个消息是最近一次公开敲诈勒索的消息，该组织之前的目标是为Netflix工作的制作工作室，以及美国各地的许多医疗中心和私人企业。该公告还标志着The Dark Overlord战略的轻微演变，该战略扩大了利用媒体对受害者施加压力，现在以更广泛的方式分发其威胁和窃取数据。
+在黑暗霸王发布的公告中，The Dark Overlord指向几家不同的保险公司和律师事务所，特别声称它侵入了Hiscox Syndicates Ltd，Lloyds of London和Silverstein Properties。
+“Hiscox Syndicates Ltd和Lloyds of London是这个星球上最大的保险公司之一，保证从最小的政策到地球上一些最大的政策，甚至为世界贸易中心等结构提供保险，”该公告称。
+目前还不清楚这个集团被盗的确切档案是什么，但它正在试图利用围绕9/11袭击的阴谋理论。
+https://motherboard.vice.com/en_us/article/yw79k5/hacker-group-threatens-dump-911-insurance-files-dark-overlord
+
+欧盟在2019年为其使用的15个开源项目开启了虫狩猎季节
+欧盟委员会决定进一步推出其免费和开源软件审计（FOSSA）项目，为其使用的15种产品中发现的漏洞提供851,000欧元的奖金。
+14个bug赏金计划于2019年1月开始，而另一个计划将于3月1日开始。
+从2019年1月7日起，研究人员可以 通过HackerOne bug赏金和漏洞协调平台为Filezilla，Apache Kafka，  Notepad ++，  PuTTY和  VLC Media Player提交安全漏洞。midPoint是一个身份管理治理平台，是欧盟希望更加安全的另一种产品，它为从2019年3月1日开始通过HackerOne报告的漏洞提供奖励。
+欧盟设置错误奖励的九种软件产品中的其余产品是  FLUX TL，  KeePass，  7-zip，  数字签名服务（DSS），  Drupal，  GNU C库（glibc），  PHP Symfony，  Apache Tomcat和  WSO2 ; 他们的安全漏洞通过位于布鲁塞尔的众包安全平台Intigrity进行协调。这些安全奖励计划从1月15日和1月开始 
+PuTTY为90,000欧元，负责任地披露了安全漏洞的最高上限，其次是Drupal，奖金总额为89,000欧元。
+https://www.bleepingcomputer.com/news/security/the-eu-opens-bug-hunting-season-in-2019-for-15-open-source-projects-it-uses/
 
 
 
 
 黑客-事件
+SandboxEscaper为新的Windows零日发布了PoC代码
+安全专家SandboxEscaper为新的Windows零日发布了一个概念验证（PoC）代码，这是她今年发布的第四个。
+SandboxEscaper发布的概念验证（PoC）代码覆盖了'PCI.sys'通过基于Windows错误报告（WER）事件的反馈基础架构收集有关软件和硬件问题的信息。
+SandboxEscaper最初宣布发布新年的PoC代码，但她决定在圣诞节后两天公开披露它。
+专家警告说，某些CPU可能无法使用的漏洞利用代码存在一些限制，例如，它无法在基于单个CPU核心的系统上运行。
+SandboxEscaper还补充说，触发问题可能需要一些时间，因为它依赖于竞争条件而其他操作可能会破坏结果。
+SandboxEscaper补充说，漏洞利用代码可用于禁用第三方AV软件。
+“你也可以用它来禁用第三方视听软件，”专家解释道。
+CERT / CC的安全专家Will Dormann能够在Windows 10 Home上成功执行漏洞利用代码，构建17134.专家证实，漏洞并不总是有效。
+https://securityaffairs.co/wordpress/79329/hacking/windows-zero-day-poc.html
 
-
+Ryuk Ransomware参与Cyber​​attack阻止报纸发行
+据报道，一起遭受Ryuk勒索软件签名的网络攻击导致周末在Tribune Publishing和洛杉矶时报的美国主要报纸的印刷和交付中受到干扰。
+受袭击影响的出版物包括“华尔街日报”，“纽约时报”，“洛杉矶时报”，“芝加哥论坛报”，“巴尔的摩太阳报”，“湖县新闻报”，“论坛后报”，“哈特福德Courant”，“资本公报”和“卡罗尔郡时报”。
+Ryuk勒索软件菌株于2018年8月引起关注，据报道  ，该公司已经向该集团投入了超过640,000美元的比特币。它通常用于通过网络钓鱼进行的针对性攻击，但也可以通过不安全的远程桌面连接进行种植。
+安全公司Check Point的一项分析显示代码与Hermes的代码相似，Hermes是一种归咎于朝鲜黑客组织Lazarus的勒索软件。
+可以识别文件加密恶意软件的ID Ransomware平台还标记了由Hermes勒索软件触及的Ryuk加密的文件。
+一份  解释“洛杉矶时报”事件的声明表明，这是由计算机故障引起的。
+该出版物在后来的一篇文章  中提供了更多详细信息，其中称该中断是由于“恶意软件攻击，该攻击似乎源自美国以外的地区，并且使计算机系统陷入困境，导致洛杉矶时报和其他报纸的周末交付延迟这个国家。“
+https://www.bleepingcomputer.com/news/security/ryuk-ransomware-involved-in-cyberattack-stopping-newspaper-distribution/
 
 
 工具-脚本
@@ -15,10 +59,20 @@
 
 
 最新-漏洞
+经过身份验证的本地攻击者可以通过打开URL并关闭手机，绕过3.1.5 for iOS之前的VideoLAN VLC媒体播放器应用程序中的密码。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19937
 
+McAfee Application Control / Change Control 7.0.1及更早版本中的白名单绕过漏洞允许执行绕过，例如，通过PowerShell等解释程序使用简单的DLL。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6668
+
+Windows上的response -dev-utils允许开发人员运行本地web服务器来接受各种命令，包括启动编辑器的命令。该命令的输入没有经过适当的消毒，这使得攻击者可以向服务器发出网络请求(通过CSRF或直接请求)，从而在目标系统上执行任意命令。这个问题影响多个分支:1.x。x在1。0.4之前，2。x。x在2。2之前，3。x。x在3。1。2之前，4。x。x先于4.2.2,5。x。x在5.0.2之前。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6342
 
 
 安全-研究
+IE11 CVE-2017-0037型混淆分析
+最近在用WinAFL，看到作者ifratric在2017年利用winafl发现了CVE-2017-0037这个洞，类型是type confusion，没分析过这种类型的洞，并且在分析恶意代码时遇到过，但是并没有分析具体原因，所以就自己动手复现了一下，详细的捋了一下整个流程。
+https://www.anquanke.com/post/id/168916
 
 
 
