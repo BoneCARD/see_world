@@ -95,7 +95,10 @@ MISP是一种开源软件解决方案，用于收集，存储，分发和共享�
 MISP的目标是促进安全社区和国外的结构化信息共享。MISP提供支持信息交换的功能，但也提供网络入侵检测系统（NIDS），LIDS以及日志分析工具SIEM对信息的消费。
 https://github.com/MISP/MISP
 
-GSIL（GitHub敏感信息泄漏）
+大规模SQL注入漏洞扫描程序
+SQLi扫描和域信息检查都是在多处理中完成的，
+因此脚本在扫描多个URL时非常快
+https://github.com/the-robot/sqliv
 
 
 最新-漏洞
