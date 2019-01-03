@@ -19,10 +19,21 @@ Abine，公司背后的模糊的密码管理器和DELETEME在线隐私保护服�
 该公司强调，用户的Blur账户中没有存储密码。
 https://www.zdnet.com/article/data-of-2-4-million-blur-password-manager-users-left-exposed-online/
 
+披露后，谷歌部分修补了Chrome浏览器3年内的缺陷
+歌终于在其适用于Android的Chrome网络浏览器中修补了一个隐私漏洞，暴露了用户的设备型号和固件版本，最终使远程攻击者能够识别未修补的设备并利用已知的漏洞。
+此漏洞尚未提供任何CVE编号，是一个信息泄露错误，其存在于Google Chrome for Android生成“用户代理”字符串的方式，该字符串包含Android版本号和构建标记信息，其中包括设备名称及其固件建立。
+此信息还会使用WebView和Chrome Tabs API发送到应用程序，这些API可用于跟踪运行它们的用户和指纹设备。例如： Mozilla / 5.0（Linux; Android 5.1.1; Nexus 6 Build / LYZ28K
+）AppleWebKit / 537.36（KHTML，与Gecko一样）Chrome / 46.0.2490.34 Mobile Safari / 537.36
+Yakov Shafranovich是Nightwatch网络安全公司的撰稿人，三年前最初向Google 报告此问题，但当时该公司拒绝了该错误报告说它的浏览器应用程序“按预期工作”。
+https://thehackernews.com/2019/01/google-chrome-android-privacy.html?m=1
 
-
-
-
+任正非新年致全体员工信：网络安全和隐私保护是华为的最高纲领！
+2019，华为一号文，任正非亲自落款！
+软件工程就像一个国家的农业，是最基础的设施！
+“软件工程”和“质量工程”需要依靠架构技术，而不是依靠CMM和QA管理流程。一切工程问题，首先要思考能否通过技术解决，当前技术无法解决的问题，暂时由管理手段代劳，同时不停止寻找技术手段。
+2019年，请写好代码，并拥抱每一个变革和转身的机会！
+——蓝血题记
+https://wemp.app/posts/cc545357-a773-45fa-b1bd-c2191e4b275f
 
 黑客-事件
 Twitter对推广内容监管不力 让假PayPal账号大肆行骗
@@ -34,9 +45,14 @@ Twitter对推广内容监管不力 让假PayPal账号大肆行骗
 若是网友缺乏戒备心，点击了诱骗链接，就会看到一个假冒 PayPal 的登陆页面，可惜它的网址一下就露馅了、更别提不支持 HTTPS 连接。
 https://zhuanlan.kanxue.com/article-5710.htm
 
-
-
-
+成千上万的谷歌Chromecast设备被劫持以促进PewDiePie
+最近几周，一群黑客利用谷歌近乎五年来一直被忽视的漏洞劫持了数以万计的谷歌Chromecast流媒体加密狗，谷歌家庭智能音箱和内置Chromecast技术的智能电视。
+通过Twitter处理@HackerGiraffe和@ j3ws3r的攻击者设法劫持了Chromecasts的提要并显示弹出窗口，传播安全警告以及有争议的YouTube明星PewDiePie宣传。
+去年年底，黑客通过利用易受攻击的打印机打印传单，要求每个人订阅PewDiePie YouTube频道，同样劫持了全球超过50,000台互联网打印机。
+这一次，黑客远程扫描互联网上的兼容设备，包括Chromecast，通过配置不当的路由器暴露在互联网上，这些路由器默认启用了通用即插即用[UPnP]。
+然后，黑客利用Chromecast中的一个设计缺陷，允许他们访问设备并劫持他们的媒体流，以便在连接的电视上显示视频消息（如下所示），无需身份验证。
+除了安全警告，黑客再次抓住机会推广PewDiePie--来自瑞典的着名YouTuber，以其游戏评论和恶作剧而闻名，并且自2013年以来在YouTube上拥有最多的订阅者。
+https://thehackernews.com/2019/01/chromecast-pewdiepie-hack.html?m=1
 
 工具-脚本
 
