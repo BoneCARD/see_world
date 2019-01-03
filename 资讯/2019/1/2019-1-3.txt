@@ -6,6 +6,14 @@ APT组织的高端攻击技巧对普通网络黑产从业者起到教科书般�
 腾讯御见威胁情报中心高级持续性威胁（APT）研究小组在长期对全球范围内的APT组织进行长期深入的跟踪和分析，我们根据我们的研究成果以及各大安全厂商的APT攻击报告，完成了该份2018年APT研究报告。
 https://mp.weixin.qq.com/s/F5hBw_pVithLlY6ixE0q-g
 
+爱尔兰铁路运营商在其网站上获取赎金票据
+爱尔兰都柏林的有轨电车系统运营商Luas.ie的网站今天已经脱机，因为有人用赎金取代其内容，要求一个比特币不发布客户数据。
+电车运营商没有提供有关这一事件的任何细节，起初将这个问题归咎于“一个持续的问题”，并说技术人员正在努力解决这个问题。
+最初还建议用户不要加载Luas网站或点击任何地方。该公司告知，它将使用Twitter进行任何旅行更新，并提供一个号码供客户查询。
+在网站被删除之前，它显示了来自犯罪者的消息，操作员对他们的消息没有响应，以告知安全问题。
+该票据要求在五天内支付一个比特币（目前为3,845美元），以防止发布“所有数据”。
+https://www.bleepingcomputer.com/news/security/irish-rail-operator-gets-ransom-note-on-its-website/
+
 240万Blur密码管理器用户的数据在线曝光
 Abine，公司背后的模糊的密码管理器和DELETEME在线隐私保护服务，透露周一数据泄露影响近240万用户的模糊，网易科技获悉。
 去年12月13日，一名安全研究人员联系了该公司关于服务器泄露了包含有关Blur用户的敏感信息的文件时，该漏洞曝光，Abine发言人通过电子邮件告诉ZDNet。
@@ -45,7 +53,7 @@ Twitter对推广内容监管不力 让假PayPal账号大肆行骗
 若是网友缺乏戒备心，点击了诱骗链接，就会看到一个假冒 PayPal 的登陆页面，可惜它的网址一下就露馅了、更别提不支持 HTTPS 连接。
 https://zhuanlan.kanxue.com/article-5710.htm
 
-成千上万的谷歌Chromecast设备被劫持以促进PewDiePie
+黑客在成千上万的黑客Chromecast和智能电视上播放PewDiePie广告
 最近几周，一群黑客利用谷歌近乎五年来一直被忽视的漏洞劫持了数以万计的谷歌Chromecast流媒体加密狗，谷歌家庭智能音箱和内置Chromecast技术的智能电视。
 通过Twitter处理@HackerGiraffe和@ j3ws3r的攻击者设法劫持了Chromecasts的提要并显示弹出窗口，传播安全警告以及有争议的YouTube明星PewDiePie宣传。
 去年年底，黑客通过利用易受攻击的打印机打印传单，要求每个人订阅PewDiePie YouTube频道，同样劫持了全球超过50,000台互联网打印机。
@@ -55,8 +63,17 @@ https://zhuanlan.kanxue.com/article-5710.htm
 https://thehackernews.com/2019/01/chromecast-pewdiepie-hack.html?m=1
 
 工具-脚本
+Cuteit - 使恶意IP成为比特计算机（IP混淆器）
+一个简单的python工具可以帮助您进行社交工程，绕过白名单防火墙，可能会破坏正则规则，以便命令行日志记录查找IP地址并将明文字符串混淆到有效负载内的C2位置。
+所有这一切都是通过将ip混淆为多种形式来完成的。
+https://github.com/D4Vinci/Cuteit
 
-
+漏洞利用框架模块分享仓库
+*框架启动前请尽量关闭杀软或暂停文件保护服务，杀毒软件会误杀框架组件，导致框架失效；
+*第一次使用前，请将全部文件解压到一个固定路径的文件夹，然后打开shellcode options修改shellcode路径；
+*然后将exploit放在相应的文件夹内，exploit类放在exploit文件夹内，poc类放在poc文件夹内，buffer类放在buffer文件夹内，启动框架，即可使用相应功能；
+*exploit类主要针对WEB漏洞，poc类主要针对WEB漏洞检测，buffer类调用外置可执行模块。
+https://github.com/Fplyth0ner-Combie/Bug-Project-Framework
 
 
 
