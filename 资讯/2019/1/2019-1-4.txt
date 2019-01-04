@@ -55,7 +55,7 @@ https://thehackernews.com/2019/01/germany-politicians-hacked.html?m=1
 德国的媒体称这是该国历史上最大的黑客行为。令人印象深刻的数据缓存在各种粘贴网站上都有镜像，这一措施可确保其在较长时间内保持可访问状态。
 https://www.bleepingcomputer.com/news/security/private-data-official-docs-of-hundreds-of-german-politicians-leaking-for-at-least-a-month/
 
-数以百万计的塞勒姆塔玩家遭到突破袭击
+塞勒姆RP游戏镇遭到黑客袭击，超过7.6M的玩家受到影响
 超过750万玩家在线游戏Tower of Salem受到了开发商BlankMediaGames（BMG）在圣诞假期的数据泄露事件的影响。
 被黑客攻击的数据库搜索引擎提供商DeHashed周二在一篇博客文章中解释说，上周有人通过电子邮件与一些新发布的数据进行了接触。
 据该公司称，该事件源于本地文件包含/远程文件包含漏洞。
@@ -149,4 +149,9 @@ stack0: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically link
 长的字符串，明显可以看出我们输入的值更改了变量导致，并且覆盖了返回地址，导致抛出Segmentation fault（访问了不可访问的内存，这个内存要么是不存在的，要么是受系统保护的）异常
 https://www.anquanke.com/post/id/169071
 
-
+从php反序列化到phar文件
+在系统、程序运行的过程中，内存中的变量数据随着运行的结束，自动销毁，而想保存内存中的数据，就应运而生了一种序列化与反序列化的技术，用来将内存中的数据保存到文件中。
+在php中利用serialize函数，将要处理的数据进行序列化，利用unserialize函数，将处理过的序列化数据进行反序列化输出。
+其中的魔术方法__sleep()与__wakeup()在序列化与反序列化的过程中，可能导致某些漏洞，举某个ctf比赛中的例子
+通过show_source函数把当前目录与获取到的变量file结合，将文件内容显示出来，上述代码的突破点就在于绕过__wakeup函数。可利用的方法为CVE-2016-7124，表示对象属性个数的值大于真实的属性个数时就会跳过__wakeup的执行，下面引入php序列化的一些基础知识，大佬可以跳过
+https://www.secpulse.com/archives/94680.html
