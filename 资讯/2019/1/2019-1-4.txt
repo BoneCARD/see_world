@@ -1,24 +1,110 @@
 ﻿安全-资讯
+华为率先完成中国5G研发试验第三阶段核心网安全技术测试
+1月3日，IMT-2020(5G)推进组（5G推进组）组织发布消息称：由5G推进组组织的中国5G技术研发试验第三阶段测试中，华为率先于2018年12月27日以100%通过率完成5G核心网安全技术测试。
+原标题：华为率先完成中国5G研发试验第三阶段核心网安全技术测试
+5G推进组称，网络安全是5G规模商用的关键能力，本次率先完成全部（必选及可选）网络安全技术测试的内容，再次证明华为在网络安全方面具备深厚的技术积累，为运营商5G的规模商用已经做好准备。
+5G推进组由我国工业和信息化部、国家发展和改革委员会、科学技术部于2013年2月联合推动成立，组织架构基于原IMT-Advanced推进组，是聚合移动通信领域产学研用力量、推动第五代移动通信技术研究、开展国际交流与合作的基础工作平台。
+5G技术研发试验第三阶段试验中的5G网络安全技术测试，遵循今年9月发布的国际通信标准化组织3GPP的Release15标准，验证内容包含了5G网络架构安全、用户终端和5G核心网之间的安全、基于非服务化接口的安全流程、基于服务化架构安全流程、5G核心网网元之间的安全、用户终端经由5G网络和外部数据网络之间的安全等技术测试。5G网络安全机制同时适用于3GPP接入和非3GPP接入，适用于服务化架构网络设计及网络安全功能流程。5G网络安全同时支持接入层（AS）安全、非接入层（NAS）安全、基于服务化架构（SBA）的安全等安全相关功能。
+https://zhuanlan.kanxue.com/article-5720.htm
+
+2018年12月勒索病毒疫情分析
+近年来勒索病毒的快速兴起，给企业和个人带来了严重的威胁，360互联网安全中心针对勒索病毒进行了多方位的监控与防御。从本月数据来看，针对个人电脑进行传播的勒索病毒有所下降，针对服务器的勒索病毒又一次上涨。勒索病毒正在威胁广大网民的上网安全。
+感染数据分析
+通过对今年勒索病毒的感染数据进行分析统计，12月的感染量相对于11月的感染量有小幅度的下降。造成11月和12月感染趋势有所波动的原因主要有以下三个方面：
+11月20日到11月27日通过U盘蠕虫传播的GandCrab勒索病毒持续上涨，并达到一个高峰期。虽然目前传播GandCrab勒索病毒的U盘蠕虫查杀量依然很高，但整体的最终感染量下降。
+11月30日到12月2日这段时间UNNAMED1989 （网称”微信支付勒索病毒”）勒索病毒大规模传播，虽然杀毒软件均能有效查杀该病毒，但仍有不少用户中招。最后以加密方式被破解、作者被抓，此事件才告一段落。
+对11月和12月勒索病毒的感染数据进行分析，在12月GlobeImposter家族和Crysis家族传播量有所上涨。
+https://www.anquanke.com/post/id/169150
+
 
 
 
 
 黑客-事件
+黑客利用漏洞，为Youtube网红技术打Call
+近日，外媒报道黑客HackerGiraffe和j3ws3r发起了一轮针对使用Chromecast联网设备用户的攻击，这轮攻击被称作CastHack。
+Chromecast是谷歌在2013年7月25日发布的全新连接设备。该设备运行简化版Chrome操作系统，可以插在电视HDMI接口上。在同一WiFi环境下，用户通过Chromecast能将手机或平板上播放的Youtube视频推送到电视上。
+黑客攻击Chromecast
+黑客HackerGiraffe和j3ws3r正是发现并利用了Chromecast的漏洞，诱使谷歌Chromecast流媒体电视棒播放任何他们想要观看的YouTube视频——包括定制视频。
+这一次，黑客劫持了数千个Chromecast，迫使它们在与其连接的电视上显示一个弹出通知，警告用户他们的路由器配置出错并且正在向黑客暴露他们的Chromecast和智能电视。
+https://zhuanlan.kanxue.com/article-5719.htm
+
+
 
 
 
 
 工具-脚本
-
+XSRFProbe - Prime Cross Site请求伪造审计和利用工具包
+XSRFProbe是一种高级跨站请求伪造（CSRF / XSRF）审计和利用工具包。它配备了强大的爬行引擎和众多的系统检查，现在能够检测大多数CSRF漏洞，其相关的绕过，并进一步生成（恶意）利用每个发现漏洞的概念证据。有关XSRFProbe如何工作的更多信息，请参阅wiki上的XSRFProbe Internals。
+https://www.kitploit.com/2019/01/xsrfprobe-prime-cross-site-request.html
 
 
 
 
 最新-漏洞
+MacPaw CleanMyMac X 输入验证漏洞
+MacPaw CleanMyMac X是美国MacPaw公司的一款专用于macOS平台的清理工具。该产品能够清除计算机中的垃圾文件、历史缓存和日志等。
+MacPaw CleanMyMac X 4.04版本中存在输入验证漏洞。本地攻击者可利用该漏洞以root用户身份修改文件系统。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-047
 
+IBM API Connect 权限许可和访问控制漏洞
+IBM API Connect（又名APIConnect）是美国IBM公司的一套用于管理API生命周期的集成解决方案。该方案支持创建、运行、管理和保护API和微服务等。
+IBM API Connect 5.0.0.0版本至5.0.8.4版本中存在提权漏洞。攻击者可利用该漏洞提升权限。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-080
+
+IBM i Access for Windows 安全漏洞
+IBM i Access for Windows是美国IBM公司的一套提供访问和使用各种不同的Windows操作系统的桌面资源的客户端解决方案。
+IBM i Access for Windows 7.1版本中存在不可信的搜索路径漏洞。攻击者可借助当前工作目录中恶意的DLL利用该漏洞执行任意代码。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-079
+
+Foxit Reader和PhantomPDF for Windows 安全漏洞
+Foxit Reader for Windows是中国福昕（Foxit）软件公司的一款基于Windows平台的PDF文档阅读器。PhantomPDF for Windows是它的商业版。
+基于Windows平台的Foxit Reader 9.3.0.10826及之前版本和PhantomPDF 9.3.0.10826及之前版本中存在安全漏洞。攻击者可借助PDF文件利用该漏洞绕过签名验证并提供不正确的检测结果。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-076
+
+Linux kernel 安全漏洞
+Linux kernel是美国Linux基金会发布的开源操作系统Linux所使用的内核。
+Linux kernel 4.19.13及之前版本中的net/can/gw.c文件的can_can_gw_rcv存在安全漏洞。攻击者可利用该漏洞造成系统崩溃。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-051
+
+Cisco Video Surveillance Media Server拒绝服务漏洞
+Cisco Video Surveillance Media Server是美国思科（Cisco）公司一套监控视频管理解决方案。
+Cisco Video Surveillance Media Server的基于Web的管理界面存在拒绝服务漏洞。远程攻击者可利用该漏洞造成拒绝服务。 
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00345
+
+Cisco Energy Management Suite XML外部实体注入漏洞
+Cisco Energy Management Suite是美国思科（Cisco）公司的一套能源管理套件。该产品主要用于管理网络设备的能源管理等。
+Cisco Energy Management Suite软件的基于Web的用户界面存在XML外部实体注入漏洞。远程攻击者可利用该漏洞读取和写入信息。 
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00346
+
+Red Hat keycloak拒绝服务漏洞
+Red Hat keycloak是美国红帽（Red Hat）公司的一套为现代应用和服务提供身份验证和管理功能的软件。
+Red Hat keycloak 4.6.0.Final之前版本中的SAML broker consumer端点存在安全漏洞，该漏洞源于程序未能验证SAML断言是否失效。攻击者可利用该漏洞实施重播攻击。 
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00373
+
+PHP拒绝服务漏洞（CNVD-2019-00335）
+PHP（PHP：Hypertext Preprocessor，PHP：超文本预处理器）是PHP Group和开放源代码社区共同维护的一种开源的通用计算机脚本语言。该语言主要用于Web开发，支持多种数据库及操作系统。
+基于Windows平台的PHP 5.x版本至7.1.24版本中的ext/standard/var.c文件存在安全漏洞，该漏洞源于在ext/com_dotnet/com_handlers.c文件的com_properties_get中，com和com_safearray_proxy的返回值总为空。攻击者可利用该漏洞造成拒绝服务（空指针逆向引用和应用程序崩溃）。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00335
+
+Microsoft Internet Explorer脚本引擎远程代码执行漏洞
+Microsoft Internet Explorer（IE）是美国微软（Microsoft）公司开发的一款Web浏览器，是Windows操作系统附带的默认浏览器。
+Microsoft IE 9、10和11的脚本引擎中对内存对象的处理方式存在远程代码执行漏洞。远程攻击者可利用该漏洞在当前用户的上下文中执行任意代码，破坏内存。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00243
 
 
 安全-研究
-
+ARM汇编之堆栈溢出实战分析（GDB）
+经过很长一段时间在azeria-labs进行的ARM基础汇编学习，学到了很多ARM汇编的基础知识、和简单的shellcode的编写，为了验证自己的学习成果，根据该网站提供的实例，做一次比较详细的逆向分析，和shellcode的实现，为自己的ARM入门学习巩固。
+实例下载地址：git clone https://github.com/azeria-labs/ARM-challenges.git
+调试环境：Linux raspberrypi 4.4.34+ #3 Thu Dec 1 14:44:23 IST 2016 armv6l GNU/Linux+GNU gdb (Raspbian 7.7.1+dfsg-5+rpi1) 7.7.1（这些都是按照网站教程安装的如果自己有ARM架构的操作系统也是可以的）
+stack0
+第一步，我们先看看文件的信息file stack0，从返回信息可以看出该程序是一个32位可执行程序，从最后的not stripped可以看出这个程序的符号信息，具体有关stripped详细介绍可以百度
+stack0: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, for GNU/Linux 2.6.32, BuildID[sha1]=1171fa6db1d5176af44d6d462427f8d244bd82c8, not stripped
+下面我们给他执行权限chmod +x stack0,然后执行它，会发现需要你的输入，表明这里使用了gets、scanf之类的输入方法，这些方法存在的地方就有溢出的风险，我们尝试构造一长一短的字符串，来测试一下。
+短的字符串输出的让你重试的字样。
+长的字符串，明显可以看出我们输入的值更改了变量导致，并且覆盖了返回地址，导致抛出Segmentation fault（访问了不可访问的内存，这个内存要么是不存在的，要么是受系统保护的）异常
+https://www.anquanke.com/post/id/169071
 
 
