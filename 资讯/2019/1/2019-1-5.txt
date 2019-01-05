@@ -1,6 +1,27 @@
 ﻿安全-资讯
+NSA在RSAConference上发布了GHIDRA逆向工程工具
+在3月份的RSAConference上，正在发布由美国国家安全局开发的名为GHIDRA的免费逆向工程框架。
+2017年3月，维基解密泄露了CIA Vault 7文件，其中概述了CIA使用的各种工具。包括在这些泄密文件都大量引用到名为GHIDRA逆向工程工具，它是由美国国家安全局开发的。
+根据RSAConference会议的公告，GHIDRA是一个逆向工程框架，可用于NSA在会议上公布的Windows，macOS和Linux。
+“NSA已开发出一种称为GHIDRA的软件逆向工程框架，该框架将首次在RSAC 2019上进行演示，”RSAConference 会话描述说。“交互式GUI功能使逆向工程师能够利用在各种平台上运行的集成功能，包括Windows，Mac OS和LINUX，并支持各种处理器指令集.GHIDRA平台包括高端所需的所有功能商业工具，NSA独特开发的新功能和扩展功能，将在RSA免费公开发布。“
+维基解密以及那些已经访问它的人的参考文献表明GHIDRA是一个基于Java的框架。它也有望在NSA的开源存储库上发布，网址为  https://code.nsa.gov/。 
+https://www.bleepingcomputer.com/news/security/nsa-releasing-the-ghidra-reverse-engineering-tool-at-rsaconference/
 
+Weather Channel应用程序被指控欺骗性地收集用户位置数据
+洛杉矶市正在起诉该应用程序的开发人员，因为他们未能透露该位置数据不仅用于准确的预测。
+部分多云，有可能失去隐私。如果您使用应用程序检查天气，这可能是预测。
+洛杉矶市律师周四起诉天气频道应用程序的开发人员涉嫌在未经用户许可的情况下收集，共享和利用用户位置数据。根据诉讼，大约有4500万人每月使用该应用程序，这是2014年至2017年下载量最大的天气应用程序。
+该诉讼指控IBM子公司The Weather Company（该应用程序背后的装备）使用该程序“积累其用户的私人，个人地理位置数据”，同时让用户相信他们的数据仅用于提供准确的本地天气预报。
+IBM表示，The Weather Company一直对使用位置数据保持透明。
+IBM的企业通信副总裁Edward Barbini在一封电子邮件声明中表示，“这些披露是完全合适的，我们将积极为其辩护。”
+该诉讼声称，天气应用程序以微小的细节跟踪用户的移动，并在没有用户知情或许可的情况下将这些数据出售给第三方。
+https://www.cnet.com/news/weather-channel-app-accused-of-deceptively-amassing-user-location-data/
 
+Apple支持网络钓鱼诈骗变得非常好
+您知道那些声称来自“Windows支持”的语音邮件吗？安全专家布莱恩克雷布斯周四在一份报告中表示，看起来诈骗者正在通过令人信服的网络钓鱼电话来宣传他们的游戏，这些电话声称来自苹果公司。  
+根据安全网站的说法，骗局开始自动呼叫，显示Apple的徽标，地址和合法的Apple电话号码，警告用户因数据泄露而返回电话。然后该消息给出1-866号码回叫。安全分析师表示，这个数字是“一个已知的网络钓鱼源”。 
+“漏洞利用是独一无二的，因为它允许呼叫者伪装成其他呼叫者，主要是通过垃圾信息污染搜索结果，使得一个号码看起来像真实公司的联系号码，”克雷布斯在他的博客上写道。“呼叫的号码是一个已知的网络钓鱼来源。请记住：如果有人打电话给你声称你的计算机坏了，他们很可能会撒谎。”
+https://www.cnet.com/news/apple-support-phishing-scams-are-getting-really-good/
 
 
 黑客-事件
@@ -62,4 +83,11 @@ https://www.freebuf.com/vuls/193078.html
 研究人员旨在测试15个物联网设备。发现这些设备中只有7个具有本地HTTP服务器，因此研究重点关注它们。它们包括：谷歌Chromecast，谷歌主页，智能电视，智能开关和三个摄像头。
 https://www.netsparker.com/blog/web-security/discovering-hacking-iot-devices-using-web-based-attacks/
 
-
+点击攻击Facebook：微小的属性如何拯救公司
+2002年引入的点击劫持攻击是一种UI Redressing攻击，其中网页在低不透明度iframe中加载另一个网页，并在用户不知不觉地点击网页按钮时导致状态更改。在本文中，我们将解释Clickjacking攻击的工作原理以及X-Frame-Options标题的重要性，包括对在Facebook上发现Clickjacking攻击的研究人员最近发现的讨论。
+Clickjacking简介
+这种类型的攻击被忽略直到2008年，当时攻击的发明者Jeremiah Grossman和Robert Hansen通过使用Clickjacking攻击通过Adobe Flash获得受害者计算机的授权。格罗斯曼最初将这种攻击命名为“点击”和“劫持”。名称“Clickjacking”通过了不同的分类和名称更改。例如，攻击者使用Clickjacking方法为自己的帖子收集的攻击后来被称为“LikeHijacking”。
+尽管使用Frame Busting等方法阻止了Clickjacking攻击，但微软在2009年引入了针对这些攻击的最有效防御。随着Internet Explorer 8的发布，Microsoft发布了X-Frame-Options（XFO）HTTP响应头。宣布之后，所有主流浏览器都实现了此标头，并在2013年发布了RFC 7034。
+Clickjacking攻击如何工作？
+Clickjacking攻击方法的工作原理是将目标网站加载到低不透明度的iframe中，并用无害的按钮或链接覆盖它。然后，通过强制用户单击显然安全的UI元素，触发嵌入的易受攻击的网站上的一组操作，诱使用户与下面的易受攻击的网站进行交互。
+https://www.netsparker.com/blog/web-security/clickjacking-attack-on-facebook-how-tiny-attribute-save-corporation/
