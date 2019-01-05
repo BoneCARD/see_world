@@ -23,6 +23,21 @@ Apple支持网络钓鱼诈骗变得非常好
 “漏洞利用是独一无二的，因为它允许呼叫者伪装成其他呼叫者，主要是通过垃圾信息污染搜索结果，使得一个号码看起来像真实公司的联系号码，”克雷布斯在他的博客上写道。“呼叫的号码是一个已知的网络钓鱼来源。请记住：如果有人打电话给你声称你的计算机坏了，他们很可能会撒谎。”
 https://www.cnet.com/news/apple-support-phishing-scams-are-getting-really-good/
 
+Skype for Android中的缺陷暴露了照片和联系人
+一位安全专家在Skype for Android中发现了一个漏洞，可能被未经身份验证的攻击者利用来查看照片和联系人，甚至可以在浏览器中打开链接。
+安全专家Florian Kunushevci（19）发现了一个漏洞，允许未经身份验证的本地攻击者查看照片和联系人，以及在浏览器中打开链接。
+接下来，即使设备被锁定，攻击者也需要接收Skype呼叫并接听它以收集对用户数据的访问权限。
+“Skype Android身份验证绕过
+- >在受害电话上查看图片和相册
+- >查看手机内的联系人（数字+姓名）
+- >访问浏览器
+我在Skype上发现的一个新漏洞已经修复，影响了数百万 安卓 世界各地使用Skype的设备。 Thew您将在2018年12月23日找到新的更新。“ 专家写道。
+该专家于10月份向微软报告了该漏洞。微软在12月23日发布了新版本的Skype，解决了这一漏洞。
+锁定的设备不​​允许用户在未经身份验证的情况下访问照片和联系人。
+专家发现Skype for Android中存在代码错误，允许未经身份验证的对设备进行物理访问的攻击者查看联系人，照片以及发送消息。
+该漏洞还允许在Android设备上启动浏览器，攻击者只需发送包含链接的Skype消息，然后单击该链接。
+https://securityaffairs.co/wordpress/79509/breaking-news/skype-for-android-flaw.html
+
 
 黑客-事件
 间谍软件在Google Play上伪装成Android应用程序
@@ -30,6 +45,12 @@ https://www.cnet.com/news/apple-support-phishing-scams-are-getting-really-good/
 我们最初研究的应用之一是Flappy Birr Dog游戏，如图1所示。其他应用程序包括FlashLight，HZPermis Pro Arabe，Win7imulator，Win7Launcher和Flappy Bird。自2018年2月以来，其中六分之六的应用程序已暂停使用Google Play。截至撰写时，Google已经从Google Play中删除了所有这些应用程序。
 https://blog.trendmicro.com/trendlabs-security-intelligence/spyware-disguises-as-android-applications-on-google-play/
 
+Aurora Ransomware会感染你吗？您可以免费解密文件
+Aurora Ransomware的受害者可以使用由流行的恶意软件研究员Michael Gillespie开发的解密器工具来免费解密他们的数据。
+Aurora Ransomware受害者的好消息是，这种Windows恶意软件有很多变种，但大多数受害者都被附加的版本感染了 .Nano 扩展到加密文件。
+攻击者通过远程桌面服务访问感染系统，一旦文件被加密，勒索软件将在Windows桌面和计算机上的各种文件夹中创建勒索信息。
+现在，流行的恶意软件研究员  Michael Gillespie开发了一种解密器，允许使用受害者s免费解密他们的文件。
+https://securityaffairs.co/wordpress/79525/malware/aurora-ransomware-decryptor.html
 
 
 
