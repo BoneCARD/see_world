@@ -4,21 +4,62 @@
 
 
 黑客-事件
+间谍软件在Google Play上伪装成Android应用程序
+我们发现了一种间谍软件（检测为ANDROIDOS_MOBSTSPY），它伪装成合法的Android应用程序来收集用户的信息。这些应用程序可在2018年在Google Play上下载，其中一些应用程序已被全球用户下载超过100,000次。
+我们最初研究的应用之一是Flappy Birr Dog游戏，如图1所示。其他应用程序包括FlashLight，HZPermis Pro Arabe，Win7imulator，Win7Launcher和Flappy Bird。自2018年2月以来，其中六分之六的应用程序已暂停使用Google Play。截至撰写时，Google已经从Google Play中删除了所有这些应用程序。
+https://blog.trendmicro.com/trendlabs-security-intelligence/spyware-disguises-as-android-applications-on-google-play/
 
 
 
 
 工具-脚本
+Java常见通用漏洞和修复的代码以及利用payload
+该项目也可以叫做Java Vulnerability Code(Java漏洞代码)。
+每个漏洞类型代码默认存在安全漏洞（除非本身不存在漏洞），相关修复代码在注释里。具体可查看每个漏洞代码和注释。
+https://github.com/JoyChou93/java-sec-code
 
-
-
+最好的扫描仪，制作出色的工具/一个可以加载poc的漏洞综合利用工具
+python-nmap库需要有nmap环境，如果要使用端口批量扫描功能
+https://github.com/jiangsir404/S7scan
 
 
 最新-漏洞
+凡诺企业管理系统PHP de***.php文件存在文件包含漏洞
+凡诺企业管理系统PHP版是基于php+MySQL开发的企业网站管理系统。
+凡诺企业管理系统PHP de***.php文件存在文件包含漏洞。攻击者可利用漏洞上传shell，获得服务器权限。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26077
 
+DENX U-Boot缓冲区溢出漏洞（CNVD-2019-00332）
+DENX Software Engineering Das U-Boot是德国DENX Software Engineering公司的一套可以从AES加密文件读取设备配置的引导加载程序。
+DENX Software Engineering Das U-Boot中的network image boot存在缓冲区溢出漏洞，该漏洞源于程序未能正确执行边界检查。本地攻击者可利用该漏洞在U-Boot实例的上下文中执行任意代码。 
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00332
 
+cplus-dem中的demangle_template函数。GNU libiberty中的c，如GNU Binutils 2.31.1中所发布的那样，包含一个整数溢出漏洞(用于“创建用于保存模板参数值的数组”)，该漏洞可以触发基于堆的缓冲区溢出，nm对此进行了演示。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20673
+
+在weixin-java-tools v3.3.0中发现了一个问题。BaseWxPayResult的getXmlDoc方法中有一个XXE漏洞。java文件。注意:这个问题的存在是因为CVE-2018-20318的修复不完整。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5312
+
+在Windows 7.1及更早版本的Windows上，IBM i Access中的一个不可信搜索路径漏洞允许通过当前工作目录中的特洛伊木马DLL执行任意代码，这与LoadLibrary函数的使用有关。IBM X-Force ID: 152079。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1888
 
 安全-研究
+Struts2-005远程代码执行漏洞分析
+S2-005和S2-003的原理是类似的，因为官方在修补S2-003不全面，导致用户可以绕过官方的安全配置（禁止静态方法调用和类方法执行），再次造成的漏洞，可以说是升级版的S2-005是升级版的S2-003。
+四、漏洞分析
+首先我们来看看官方是如何修补的S2-003呢？它是新出了一个沙盒机制，默认禁止了静态方法的调用（allowStaticMethodAcces和MethodAccessor.denyMethodExecution）
+所以我们可以利用OGNL先把沙盒关闭掉，就又可以执行命令了。
+xwork.MethodAccessor.denyMethodExecution设置为falseallowStaticMethodAccess设置为true
+这样就可以关闭掉沙盒机制，unicode编码仍然还是可以的，\u0023会被解析成#，POC还是原来的POC，只不过加上了上面的两个设置，接下来我们可以看看具体漏洞分析的过程
+这里还是在Tomcat6环境下进行分析。
+和S2-003大体相同，在xwork-core-2.1.16.jar!com/opensymphony/xwork2/interceptor/ParametersInterceptor中断点调试
+https://www.freebuf.com/vuls/193078.html
 
+使用基于Web的攻击发现和黑客物联网设备
+一般来说，可以肯定的是，恶意黑客的即将到来的趋势将包括多个现有攻击的组合，形成新的攻击媒介。使加密货币钱包易受攻击的DNS重新绑定攻击是这些新攻击媒介的一个很好的例子。
+在本文中，我们讨论了在普林斯顿和加州大学伯克利分校进行的针对物联网（IoT）设备的基于网络的攻击的研究，这些攻击导致了这些设备的发现，黑客攻击和接管。该研究于2018年8月发表。
+用于物联网设备研究的发现和黑客攻击的设备和方法
+研究人员旨在测试15个物联网设备。发现这些设备中只有7个具有本地HTTP服务器，因此研究重点关注它们。它们包括：谷歌Chromecast，谷歌主页，智能电视，智能开关和三个摄像头。
+https://www.netsparker.com/blog/web-security/discovering-hacking-iot-devices-using-web-based-attacks/
 
 
