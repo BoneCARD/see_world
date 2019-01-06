@@ -9,16 +9,64 @@
 
 
 工具-脚本
+Kalitorify - 透明代理通过Tor为Kali Linux OS
+kalitorify是Kali Linux的shell脚本，它通过Tor 使用透明代理的iptables设置，该程序还允许您执行各种检查，如检查外部IP，或者Tor是否已正确配置。
+什么是透明代理？
+透明代理也称为拦截代理，内联代理或强制代理，它拦截网络层的正常通信，无需任何特殊的客户端配置。客户端无需了解代理的存在。透明代理通常位于客户端和Internet之间，代理执行网关或路由器的某些功能。
+严格来说，使用kalitorify，您可以通过Tor 重定向Kali Linux操作系统的所有流量。
+在Tor项目维基中，您可以找到“透明代理直通”和相关设置的解释。
+https://www.kitploit.com/2019/01/kalitorify-transparent-proxy-through.html\
 
+JSShell - 一个交互式多用户Web JS Shell
+基于交互式多用户web的javascript shell。最初创建它是为了在实验和研究期间调试远程深奥的浏览器。此工具可以轻松附加到XSS（跨站点脚本）有效负载，以实现浏览器远程代码执行（类似于BeeF框架）。
+2.0版完全从头开始创建，引入了令人兴奋的新功能，稳定性和可维护性。
+https://www.kitploit.com/2019/01/jsshell-interactive-multi-user-web-js.html
 
+PRETty - “PRinter Exploitation Toolkit”局域网自动化工具
+当网络上存在大量打印机时，PRETty非常有用。PRETty将自动发现并运行针对目标网络上所有打印机的PRET有效负载，而不是在每台打印机上扫描，记录和手动运行PRET。此外，PRETty可用于自动将命令/有效负载传送到任何给定的打印机列表（请参阅“列表”部分）
+https://www.kitploit.com/2019/01/pretty-printer-exploitation-toolkit-lan.html
 
 
 
 最新-漏洞
+广东百城人才网络股份有限公司建站系统存在存储型跨站脚本漏洞
+广东百城人才网络股份有限公司是一个互联网人力资源服务平台。
+广东百城人才网络股份有限公司建站系统存在存储型跨站脚本漏洞。攻击者可在页面中插入恶意js代码，获得用户cookie等信息，导致用户被劫持。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26045
+
+Gnome Glib 2.58.1版本存在越界读漏洞
+GNOME是一种GNU网络对象模型。GLib为C语言编写的库和程序提供了核心应用程序组件。
+Gnome Glib 2.58.1版本存在越界读漏洞。攻击者可利用导致栈溢出（越界读）。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-26067
 
 
 
 安全-研究
+漏洞分析：解析Windows XP版永恒之蓝中的一个Bug
+黑掉Windows 7已经没什么挑战了，我这一次打算重新回顾一下那个针对Windows XP永恒之蓝漏洞的漏洞利用代码，之前这份Exploit就没成功过，而且我尝试了各种版本的补丁和服务包，但这份漏洞利用代码要么无法工作，要么就让设备蓝屏。因此我打算继续研究一下，因为FuzzBunch有太多没有被挖掘出来的“潜力”了。
+但是在一次针对其他Windows XP设备的渗透测试过程中，我本来对FuzzBunch没抱希望的，但可怕的是，它竟然能用…
+所以我问自己，为什么它能用到外界的Windows XP设备上，却没办法在我的实验环境中使用呢？（长话短说：因为单核/多核/PAE CPU中的NT/HAL存在差别，导致FuzzBunch的XP Payload在单核设备上会终止运行。）
+多个漏洞利用链
+请记住，永恒之蓝有很多个版本。但是FuzzBunch针对Windows XP的漏洞利用链却和针对其他版本的Exploit有着很大区别，具体请参考DerbyCon 8.0的相关资料：【幻灯片】【视频】。
+Payload方法论
+原来，漏洞利用代码根本没问题，有问题的是FuzzBunch的Payload。
+主要阶段的Shellcode执行的是下列活动：
+1.利用KdVersionBlock技术获取&nt和&hal；
+2.解析某些必要的函数指针，比如说hal!HalInitializeProcessor；
+3.恢复Boot处理器KPCR/KPRCB，因为它会在漏洞利用过程中崩溃；
+4.运行DoublePulsar，在SMB服务中植入后门；
+5.将nt!PopProcessorIdle的运行状态恢复到正常状态。
+https://www.freebuf.com/vuls/192236.html
 
+CVE-2018-19518：PHP imap_open函数任意命令执行漏洞复现
+PHP 的imap_open函数中的漏洞可能允许经过身份验证的远程攻击者在目标系统上执行任意命令。该漏洞的存在是因为受影响的软件的imap_open函数在将邮箱名称传递给rsh或ssh命令之前不正确地过滤邮箱名称。如果启用了rsh和ssh功能并且rsh命令是ssh命令的符号链接，则攻击者可以通过向目标系统发送包含-oProxyCommand参数的恶意IMAP服务器名称来利用此漏洞。成功的攻击可能允许攻击者绕过其他禁用的exec 受影响软件中的功能，攻击者可利用这些功能在目标系统上执行任意shell命令。利用此漏洞的功能代码是Metasploit Framework的一部分。
+要利用此漏洞，攻击者必须具有对目标系统的用户级访问权限。此访问要求可以降低成功利用的可能性
+https://www.freebuf.com/vuls/192712.html
 
-
+Vidar和GandCrab：在野外观察到的偷窃者和勒索软件组合
+我们一直在追踪一个多产的恶意广告活动数周，并捕获了各种有效载荷，包括几个窃贼。我们最初确定为Arkei的一个原来是Vidar，最近Fumik0_  在他的文章中详细分析了一个新的恶意软件：  让我们深入了解Vidar - Arkei Copycat / Forked Stealer（深入分析）。
+在北欧神话中，  Víðarr  是Odin的神和儿子，他的死将被预言他将报复。被称为“沉默的一个”似乎适合这个窃取者，它可以从浏览器历史（包括Tor浏览器）和加密货币钱包中掠夺，捕获即时消息等等。
+我们目睹了威胁演员使用Fallout漏洞利用工具包来分发Vidar。但受害者不会注意到这一点，因为推动次要和嘈杂的有效载荷是GandCrab勒索软件。
+概观
+一个恶意广告链引导我们使用Fallout漏洞利用工具包，然后是我们认为是Arkei窃取者。仔细观察，虽然样本确实与Arkei有很多相似之处（包括网络事件），但它实际上是一个更新的，当时尚未公开描述的现在被识别为Vidar的恶意软件。
+https://blog.malwarebytes.com/threat-analysis/2019/01/vidar-gandcrab-stealer-and-ransomware-combo-observed-in-the-wild/
