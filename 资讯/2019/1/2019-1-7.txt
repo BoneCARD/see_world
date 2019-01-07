@@ -1,21 +1,109 @@
 ﻿安全-资讯
+他一人保护了数十亿用户的安全，获微软史上最高奖励20万美金！
+2019年伊始，微软送出了史上最高一笔漏洞挖掘奖励，总额高达20万美元（约合人民币137万），奖励360冰刃实验室研究员洪祯皓发现的一个Hyper-V的漏洞，正值国内年终岁末，可谓是微软送给中国白帽黑客一笔丰厚的“年终奖”。由于漏洞危险级别高，影响范围广，微软在确认漏洞细节后第一时间确认奖金并致谢漏洞发现者。
+目前来看，云已经是大家生活的一部分，浏览网页，网上交易，苹果手机的照片存储等，都会使用到云计算和各大厂商的云服务。作为互联网行业的巨头，微软也在云战略中大步前进，其中，Hyper-V是微软Azure云虚拟化解决方案，也是微软云战略的基石。
+举个例子来说，微软云平台就好比是一栋商业大厦，Hyper-V就是这栋大厦的主要建筑设施，每个虚拟主机就是一个个房间，里面提供的软件和服务就是各具特色的装修和家具。各公司和个人租房间居住或开展业务，每人只能使用自己的房间。
+http://www.360.cn/n/10547.html
 
+华为的5G安全审查痛苦可能是思科的利益 - 分析师
+摩根大通的分析师表示，思科可以从西方世界对华为企业网络设备的安全打击中获益。
+美国财经博客The Street 引用分析师Samik Chatterjee的话说： “我们预计那些拥有全球影响力的公司（再次主要是思科和Ciena等）能够从相对于华为5G网络的业务收益回升中获益。” 。
+据2018年下半年报道，美国联邦通信委员会（FCC）一直建议将华为工具包从普遍服务基金宽带补贴支持中排​​除，这一举措遭到了中国公司的强烈反对。Five Eyes合作伙伴澳大利亚和新西兰都采取措施阻止中国供应商参与电信基础设施项目 - 包括Oz的国家宽带网络和5G网络。在英国，英国电信公司BT最近从其核心5G网络中卸载了华为设备，并坚持认为这是将移动公司远离其中心的现有计划的一部分。
+https://www.theregister.co.uk/2019/01/07/huawei_security_woes_biz_opportunity_cisco_jp_morgan/
 
+unCAPTCHA AI以90％的准确率破解Google reCAPTCHAs
+马里兰大学的概念验证可以打破作为残疾人选择的音频挑战。
+unCAPTCHA是马里兰大学设计的一个基于人工智能的自动化系统，已经更新，以90％的准确率打破谷歌最新的基于音频的reCAPTCHA挑战。
+谷歌多年来一直致力于改进和加强reCAPTCHA，这是一种基于图灵测试的方法，用于证明网站用户不是机器人。它通常会向用户提出它认为可能是机器人的问题，要求他们阅读扭曲的文本并将其键入框中，或者选择具有共同点的图片组。但音频挑战是残疾人的选择; 这些由录制的声音序列组成。只需要用户输入他们听到的内容即可。
+去，马里兰大学的团队用unCAPTCHA 破解了音频机制，unCAPTCHA将免费的，公共的，在线的语音到文本引擎（包括Google自己的引擎）与语音映射技术相结合。系统下载音频挑战，将其分成几个数字音频片段，然后通过几个文本到语音系统运行它们以确定精确和接近同音，通过置信度对聚合结果进行加权，然后发送最可能的答案去谷歌。
+当时，reCAPTCHA使用了数字：录制的语音会说出一系列用户随后需要输入的数字。试验结果表明，AI可以在5.42秒内解决450次reCAPTCHA挑战，准确度达到85.15％：这比听取挑战的时间要少。
+但谷歌今年早些时候更新了reCAPTCHA，改变了音频挑战，以便他们使用单词而不是数字，并改进基于浏览器的自动检测。该团队作为回应更新了unCAPTCHA也能够解决这个问题。它使用相同的文本到语音方法，而unCAPTCHA2也使用屏幕点击器移动到屏幕上的某些像素，并像人一样在页面上移动。
+研究人员说，该系统现在具有90％的准确率。
+https://threatpost.com/uncaptcha-googles-recaptchas/140593/
+
+CES 2019：Arlo家庭安全系统终于到来了
+Arlo，电池供电的户外摄像机制造商，在CES 2019上有一些全新的东西--Arlo安全系统。
+安全系统设计用于Arlo凸轮，包括Arlo多传感器，Arlo Siren和Arlo遥控器。     
+Arlo声称其多传感器是一种“一体化”设备，可检测运动，门窗打开和关闭，烟雾和一氧化碳报警，温度变化和漏水。理论上，如果它有效，你不需要在每个门窗上都有单独的传感器。
+https://www.cnet.com/news/ces-2019-an-arlo-home-security-system-is-here-at-last/
 
 
 黑客-事件
+Dark Overlord黑客发布了第一批“秘密”9/11文件
+Dark Overlord黑客已经履行了他们的承诺，并在与9/11攻击相关的70兆字节文件中发布了650个文档的第一批解密密钥。
+最初，该组织发誓要在Twitter帐户或名为“KickAss”的黑暗网页上发布10GB的数据。但在Twitter上暂停后，Dark Overlord黑客宣布了他们的“分层补偿计划”，任何人都可以将比特币发送到他们的比特币地址并且根据生成的BTC数量，该组将相应地发布更多文档。
+看看The Dark Overlord的比特币地址  显示，已经有16笔交易，其中该集团已经制造了3.27749466 BTC（根据谷歌计算为12,531美元），足以发布“第1层”和各种检查点。“在发表这篇文章时，还有四个要解锁的图层。 
+https://www.hackread.com/dark-overlord-hackers-leak-secret-9-11-files/
 
+iOS 软件应用与Android恶意软件有染 秘密传输用户数据
+安全研究人员表示，他们已经发现10多款iPhone应用程序秘密地与一个Golduck相关的服务器进行通信，这是一个以Android为重点的恶意软件，于一年多以前被发现，可以感染流行的经典游戏应用程序。
+恶意软件Golduck通过在游戏中嵌入后门代码，将恶意负载默默地推送到设备上，使黑客能以最高权限运行恶意命令可以，例如，在用户的手机上发送付费短信牟利，共有超过1000万名用户受到影响。
+近日研究人员称，与Golduck通信的iPhone应用也存在风险。
+企业安全厂商Wandera称，被发现的14款iPhone应用，全部是复刻版游戏，且与Golduck恶意软件使用的命令和控制服务器通信一致。
+受影响应用程序包括：Commando Metal:Classic Contra, Super Pentron Adventure: Super Hard, Classic Tank vs SuperBomber, Super Adventure of Maritron, Roy Adventure Troll Game, Trap Dungeons:Super Adventure, Bounce Classic Legend, Block Game, Classic Bomber: SuperLegend, Brain It On: Stickman Physics, Bomber Game: Classic Bomberman, ClassicBrick – Retro Block, The Climber Brick, and Chicken Shoot Galaxy Invaders.
+不幸中的万幸是据研究人员称，Golduck对iPhone应用的感染相对是良性的，命令和控制服务器只是在应用程序右上角的广告空间的中推送一个图标列表。当用户打开这些游戏时，服务器告诉应用程序应该向用户提供哪些图标和链接。
+https://zhuanlan.kanxue.com/article-5727.htm
 
+假的'你的！网络钓鱼蠕虫使用自制字体作为消息密码来逃避过滤器
+已经发现了一种新的网络钓鱼活动，该活动使用自定义字体来隐藏其轨道并逃避检测。
+安全公司Proofpoint本周报告说，希望从“一家大型零售银行”的客户那里窃取登录凭据的歹徒能够通过看似将他们的消息加入乱码来隐藏他们的自动检测工具的网络钓鱼电子邮件。一旦在电子邮件客户端中呈现，消息将显示为连贯的文本，这要归功于自定义字体解读字母。
+Proofpoint表示，至少从2018年5月开始，网络钓鱼活动已经开始运作，并且仍处于活跃状态。
+以下是它的工作原理：页面加载自定义字体，例如，将“A”绘制为“E”，将“B”绘制为“H”，依此类推。这会创建一个原始替换密码，欺骗安全工具寻找某些关键字，因为软件只会观察一组随机字母，但用户会看到可读文本。当然，这需要将受害者的电子邮件客户端配置为下载和呈现自定义字体。
+https://www.theregister.co.uk/2019/01/04/phishing_homebrew_fonts/
+
+黑客使用澳大利亚预警网络发送垃圾邮件警报
+上周末，一名黑客未经授权访问昆士兰EWN或预警网络，并用它通过短信，固定电话和电子邮件向公司订户发送垃圾邮件提醒
+EWN是澳大利亚公司Aeeris提供的一项服务，允许澳大利亚理事会或地方政府发送有关极端天气，火灾，疏散信息或事件响应的紧急警报。
+未经授权的警报称“EWN已被黑客入侵。您的个人数据不安全。” 然后他们继续告诉收件人发送电子邮件至support@ewn.com.au取消订阅该服务。其中一个警报的示例如下所示。
+https://www.bleepingcomputer.com/news/security/hacker-uses-australian-early-warning-network-to-send-spam-alerts/
 
 
 工具-脚本
+Shodanploit - 用Python编写的Shodan命令行界面
+Shodan是互联网上的搜索引擎，您可以在世界各地找到有趣的东西。例如，我们可以找到相机，比特币流，僵尸计算机，服务薄弱的端口，SCADA系统等等。此外，更具体的搜索是可能的。通过搜索，Shodan向我们展示了地球上易受攻击的主机的数量。
+那么什么是shodansploit呢？
+使用Shodan Exploit，您将在终端上接听所有电话。它还允许您进行详细搜索。
+所有你不必运行Shodansploiti所要做的就是添加shodan api。
+https://www.kitploit.com/2019/01/shodanploit-shodan-command-line.html
 
-
-
+用于macOS的ReiKey应用程序可以使用事件点击检测Mac键盘记录器
+ReiKey是一个免费工具，允许扫描和检测键盘记录器，安装持久键盘“事件点击”来拦截你的击键。
+对macOS用户来说是个好消息，一个名为的新开源工具 ReiKey允许他们检测Mac键盘记录器。该ReiKey用于分析键盘“ 事件抽头 ”的应用程序的应用程序监视器系统，用于监视和过滤来自系统内部几个点的输入事件拦截键击。
+恶意应用程序和合法软件都添加了事件抽头，以管理用户提供的输入。
+ReiKey由流行的macOs专家和前NSA白帽黑客Patrick Wardle开发。该应用程序能够检测使用CoreGraphics框架监视事件抽头的恶意代码。
+https://securityaffairs.co/wordpress/79573/malware/reikey-detects-keylogger.html
 
 
 最新-漏洞
+Apache Karaf XXE Vulnerability (CVE-2018-11788)
+Apache Karaf是一个现代的多态应用程序容器。它是由OSGi提供支持的轻量级，动力和企业级容器。Apache Karaf是一个“产品项目”，提供完整的交钥匙运行时。运行时是“多方面”，这意味着您可以部署不同类型的应用程序：OSGi或非OSGi，Web应用程序，基于服务等。
+在最近对Apache Karaf的研究中，我发现其XML解析器中存在一些XXE（XML外部实体注入）漏洞。导致解析器不正确地解析XML文档。
+https://github.com/brianwrf/CVE-2018-11788/
 
+IBM Jazz Reporting Service 跨站脚本漏洞
+IBM Jazz Reporting Service（JRS）是美国IBM公司的一套用于发现跨项目报表的应用程序，它可与IBM Rational CLM的Rational解决方案（用于管理开发项目的所有生命周期）集成使用，CLM用户可在仪表板中访问JRS提供的报表，包括显示所有项目的状态，并跨应用程序、跨项目（甚至跨时间表）来汇聚数据。
+IBM JRS中存在跨站脚本漏洞。远程攻击者可利用该漏洞向Web UI中注入任意的JavaScript代码。以下版本受到影响：IBM Jazz Reporting Service 6.0.3版本，6.0.4版本，6.0.5版本，6.0.6版本。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-091
+
+IBM API Connect 安全漏洞
+IBM API Connect（又名APIConnect）是美国IBM公司的一套用于管理API生命周期的集成解决方案。该方案支持创建、运行、管理和保护API和微服务等。
+IBM API Connect 5.0.0.0版本至5.0.8.4版本中的管理服务器的基于角色的访问控制功能存在安全漏洞。攻击者可利用该漏洞获取高度敏感的信息。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-090
+
+Django 安全漏洞\
+Django是Django软件基金会的一套基于Python语言的开源Web应用框架。该框架包括面向对象的映射器、视图系统、模板系统等。
+Django中存在安全漏洞。攻击者可借助恶意制作的URL利用该漏洞在默认页面上显示虚假信息。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-089
+
+weixin-java-tools 安全漏洞
+weixin-java-tools是一款基于Java的微信软件开发工具包。该产品用于支持微信支付、开放平台、公众号、企业微信/企业号和小程序等微信功能的后端开发。
+weixin-java-tools 3.3.0版本中的BaseWxPayResult.java文件的getXmlDoc方法存在XML外部实体注入漏洞。目前尚无此漏洞的相关信息，请随时关注CNNVD或厂商公告。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-087
+
+流量银行APP存在信息泄露漏洞
+流量银行APP是一款流量管理和交易平台软件。
+流量银行APP存在信息泄露漏洞。攻击者通过抓包篡改数据包，获取其他用户信息。
+http://www.cnvd.org.cn/flaw/show/CNVD-2018-25908
 
 
 安全-研究
