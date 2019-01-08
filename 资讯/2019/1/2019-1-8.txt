@@ -1,24 +1,130 @@
 ﻿安全-资讯
+黑莓进军物联网智能安防了！
+有人说刚刚过去的2018年是“数据灰色之年”，接踵而至的数据泄露、隐私泄露被频频曝出让人来不及舒缓紧张的神经。而在数据泄露中，物联网显然也是重伤领域。
+2018年1月跑步和骑行的App——Strava让美军神秘军事基地被曝光，6月航班跟踪服务Flightradar24泄露23万用户数据， 9月国内青果被曝直播用户日常、涉嫌侵犯用户隐私，12月黑客入侵逾5万台打印机，推广当红YouTube频道。
+面对被围击的“隐私”，各大企业也采取了自己的安全措施。比如微软在去年4月份就发布了Azure Sphere微芯片，允许企业在联网设备上部署安全芯片和软件。此外亚马逊和谷歌也提供了各自的解决方案（Android IoT / AWS IoT），以便为联网设备提供充分的防护。
+https://zhuanlan.kanxue.com/article-5731.htm
 
+乙方视角的安全防御15年
+又是一年岁末年初，2018年对信息安全从业者来说是不平静的一年，无论是国家、企业和个人或多或少都能感受到安全威胁给我们带来的阵阵寒意，具体发生了什么文末会有彩蛋。之所以写下这篇安全防御技术回顾的万字长文，一方面与个人的从业经历有关，太多时间呆在不同类型的信息安全厂商，一方面有机会接触到各种信息安全技术(不到一百也有大几十:)。另一方面，这些年安全防御技术也是日新月异，但是重来没有机会读到一些梳理性的资料和对比分析，所以自己在这辞旧迎新之际利用两天周末好好梳理下这些年从事信息安全技术工作的所见所闻，站在一个乙方的角度回顾所用过的安全技术，梳理下当前安全技术的现状，展望一下未来安全技术未来的发展。
+如果15年前跟客户谈应用防火墙和威胁情报或零信任架构，可能没有多少用户理解或接受如此超前概念，更难看到有可以落地的安全技术方案。一方面在当年大多数企业或个人可能根本不会受到有组织和目的的攻击，因为电脑和Internet并未像今天渗透到我们生活的方方面面。此外跟我们合作伙伴交流信息安全问题，也会无果而终，因为即便网站被黑，密码被盗也不会对我们的工作和生活产生多大点事儿，因为在当时信息化技术并没有产生足够多与企业和个人相关的数据。但是今天，我们发现从国家层面大力推动互联网+和企业核心业务快速从线下走到线上，信息技术已经全面渗透到工作生活的细枝末节。比较典型的是以前出门生怕忘记带钱包，如今出门最怕的是忘带手机。欣喜之余，我的手机每天被各种售楼电话、信贷促销狂轰烂炸，更有甚者是伪基站发送各种钓鱼短信、微商广告和电子邮件，简直让人防不胜防。好在你有张良计，我有过墙梯，如今我们有为数众多的安全厂商和信息安全从业人员日以继夜的为保护企业和个人的数字资产在劳心费力。回首过去十几年，经历了信息安全的默默无闻，蓄势待发和如今的百花齐放。在不同的时期，所面临的信息安全风险也各不相同，好在都有代表性的安全技术为大众保驾护航，但是这些年安全防御技术的发展经历了什么？下面结合过往一点实际经验进行回顾。但个人的经历和见识毕竟有限，所以也仅代表自己从乙方视角，对整个安全防御技术领域无法大而全面面俱到，恐有不足之处，还望各位看客多多包涵和指教。
+https://www.sec-un.org/%E4%B9%99%E6%96%B9%E8%A7%86%E8%A7%92%E7%9A%84%E5%AE%89%E5%85%A8%E9%98%B2%E5%BE%A115%E5%B9%B4/
+
+以太坊经典（ETC）受到双倍花费攻击，价值110万美元
+流行的加密货币交易Coinbase已经暂停所有交易平台，其他产品和服务的以太网经典（ETC） - 以太坊网络的原始未经形成版本 - 在检测到对加密货币网络的潜在攻击后，让某人花费相同的数字硬币两次。
+为什么这次袭击有关？抢劫导致价值110万美元的以太坊经典数字货币损失。消息传出后，数字货币价格立即下跌。
+Coinbase周一透露，它确定了以太坊经典区块链的“深度链重组”（或51％的网络攻击），这意味着控制网络上大多数矿工的人（超过50％）已经修改了交易历史。
+在重新组织以太坊区块链之后，攻击者通过从合法接收者那里恢复以前用过的硬币并将其转移到攻击者选择的新实体（通常是他们控制的钱包），能够实现所谓的“双重花费”约219,500 ETC。
+“我们观察到以太网经典区块链的重复深度重组，其中大部分包含双倍花费，”Coinbase安全工程师Mark Nesbitt在博客文章中说。“到目前为止，我们观察到的双倍花费的总价值是219,500 ETC（〜$ 1.1M）。”
+Coinbase于1月5日确定了以太坊Classic区块链的深度链重组，此时该公司停止了链式ETC支付，以保护其客户资金和加密货币交换本身。
+status.coinbase.com上的更新内容为：“由于以太坊Classic网络上的网络状况不稳定，我们暂时禁用了ETC的所有发送和接收。买卖不会受到影响。所有其他系统都正常运行。”
+值得注意的是，这次事件不是一次性事件，因为攻击显然正在进行中。
+加密货币双重花费攻击
+最初，Coinbase确定了9次重组，包含双倍花费，达到88,500 ETC（约合460,000美元），但其博客文章的最新更新表明，至少有12次重组包括双倍花费，共计219,500 ETC（近1.1万亿美元）。
+当时，目前还不清楚攻击者攻击谁，但Coinbase向客户保证，加密货币交换本身并不是这些攻击的目标，也没有客户资金丢失。
+https://thehackernews.com/2019/01/ethereum-double-spend-attack.html?m=1
+
+Adobe补丁连接和数字版中的重要错误
+这个更新是在上周一个未安排的补丁中的关键修复之后发布的。
+Adobe发布了针对其Adobe Digital Edition和Adobe Connect产品中被评为“重要”的两个漏洞的补丁。
+周二修补的两个重要漏洞包括Adobe电子书阅读器软件程序Digital Edition中的信息泄露错误; 以及其演示文稿和Web会议软件Adobe Connect中的会话令牌暴露错误。
+“重要”的界限读取错误CVE-2018-12817是一个信息泄露漏洞，它影响了Adobe Digital Edition 4.5.9及更早版本，适用于Windows，macOS，iOS和Android。Clarified Security的JaanusKääp因发现这个问题而受到赞誉。
+根据Adobe的发布，“Adobe发布了Adobe Digital Editions的安全更新”。“此更新解决了一个重要漏洞。成功利用可能会导致当前用户的信息披露。“
+据Adobe称，用户被要求在优先级3更新中将Adobe Digital Editions更新到4.5.10 - 这意味着它“解决了历史上不是攻击者目标的产品中的漏洞”。
+另一个错误是Adobe Connect中的“重要”会话令牌暴露故障（CVE-2018-19718），可以允许暴露授予会话的权限。受影响的是所有平台上的Adobe Connect版本9.8.1及更早版本。建议用户在优先级3更新中更新到Adobe Connect 10.1。
+Adobe表示，它不知道这些漏洞中的任何漏洞的当前漏洞。
+上周发布了一系列针对Adobe Acrobat和Reader for Windows和MacOS的计划外修复程序。这些  更新  修复了两个关键漏洞，CVE-2018-16011和CVE-2018-19725。成功利用这些缺陷可能导致   在当前用户的上下文中执行任意代码。
+这个补丁也是在忙碌的12月Adobe之后发布的。该公司在其12月补丁周二更新中修补了87个Acrobat和Reader漏洞  ，包括一系列允许任意代码执行的关键漏洞。
+https://threatpost.com/adobe-patches-important-bugs-in-connect-and-digital-edition/140635/
+
+Zerodium将零日支付上限提升至200万美元
+Apple漏洞将获得最高价格。
+漏洞利用收购供应商Zerodium周一表示，它正在增加其在整个计划中获得全部工作漏洞的支出。它现在为远程iOS越狱支付200万美元，为WhatsApp / iMessage / SMS / MMS远程代码执行（RCE）支付100万美元，为谷歌Chrome RCE支付50万美元。
+此举意味着符合条件的零日攻击支付范围从每次提交2000美元到200万美元 - 甚至更高的支出可用于“特殊的攻击和研究”，它在其网站上说。
+授予的金额取决于受影响的软件/系统，以及提交的漏洞利用的质量（即，它是完整的还是部分的链，它是否会影响当前版本，可靠性，绕过漏洞利用缓解等）。研究必须是原创的，以前没有报道过。
+https://threatpost.com/zerodium-raises-zero-day-payout-ceiling-to-2m/140624/
+
+你现在可以获得100万美元用于攻击WhatsApp和iMessage
+购买和出售漏洞或零日的公司现在愿意提供七个数字的黑客，允许间谍和警察窃取WhatsApp，iMessage和其他聊天应用程序消息。
+如果政府间谍或执法机构需要帮助拦截使用WhatsApp或iMessage等应用程序的某些恐怖分子或犯罪分子的通信，他们将需要支付比以往更多的钱。
+周一，Zerodium是一家向世界各国政府购买和销售黑客工具和漏洞利用的初创公司，他们宣布几乎所有他们正在寻找的产品价格上涨，例如iOS远程越狱和Windows漏洞利用。该公司表示，它将向安全研究人员支付1,000,000美元，用于所有移动操作系统的WhatsApp，iMessage和SMS / MMS应用程序。
+Zerodium的创始人Chaouki Bekrar在一次在线聊天中告诉Motherboard，“一般的消息应用程序，特别是WhatsApp有时是目标使用的唯一通信渠道，端到端加密使我们的政府客户难以拦截此类通信。” “因此，能够在不影响整个手机的情况下直接远程破坏这些应用程序的能力更具战略性和有效性。”
+https://motherboard.vice.com/en_us/article/qvqq97/whatsapp-imessage-exploits-zero-days-1-million
 
 
 
 黑客-事件
+Zerodium提供以比以往更高的价格购买零日漏洞
+嗯，对于黑客和漏洞搜索者来说有一些好消息，尽管科技制造商有可怕的消息！
+漏洞利用供应商Zerodium现在愿意为完整的零日攻击提供更高的支付，这些漏洞允许窃取来自WhatsApp，iMessage和其他在线聊天应用程序的数据。
+Zerodium是一家臭名昭着的法国公司Vupen的创业公司，该公司向世界各地的政府机构购买和销售零日攻击 - 称它现在将支付高达200万美元的远程iOS越狱和100万美元用于针对安全消息应用程序的攻击。
+获得200万美元的远程越狱iPhone
+此前，Zerodium提供150万美元用于持久的iOS越狱，可以远程执行而无需任何用户交互（零点击） - 但现在该公司已将这一数额增加到200万美元。 该公司现在提供150万美元的远程iOS越狱，需要最少的用户交互（即单击） - 金额从100万美元增加。
+https://thehackernews.com/2019/01/zero-day-exploit-market.html
 
-
-
+美国厨具商“OXO”披露其网站遭MageCart 攻击
+美国厨具制造商OXO International近日披露一个跨越长达两年的数据泄露，研究人员认为是遭到了MageCart攻击。MageCart一直是众多电商网站一颗拔不掉的刺，英国航空公司门票销售门户特马捷（TicketMaster）、消费电子产品巨头Newegg、以及Feedify等都不堪其扰。
+MageCart 攻击是使用已知的服务器漏洞进入网站，注入卡片支付代码，并在攻击者控制的服务器上提取信用卡号、名称和安全码，通常一次持续数月。
+研究人员Yonathan Klijnsma一直追踪此类攻击。其表示主要有六个组织从事此类攻击：第1组最早从2014年开始，针对上千个网站和托管恶意软件、存储收集数据的一次性服务器；第2组和第3组拓展了其攻击范围，是针对支付提供商；第4组利用分散的方法取得了超过3000个被黑客攻击网站中获取尽可能多的卡片信息；第5组是通过点击第三方代码提供商（如客户服务聊天框）进行供应链攻击，这些代码提供商安装在数千个站点上，携带恶意软件；第6组为高度选择性的攻击，仅针对主要参与者，如英国航空公司和消费电子产品巨头Newegg等。
+OXO International在加利福尼亚州数据泄露通知中表示在2017年6月9日-11月28日、2018年6月8日-2018年6月9日及2018年7月20日-10月16日期间，其服务器遭泄露，攻击者的目标是得到客户和支付等信息，研究人员发现至少有一次攻击为试图窃取客户信息的MageCart 攻击。
+http://www.mottoin.com/news/134004.html
 
 工具-脚本
-
-
+Tool-X - Kali Linux黑客工具安装程序
+Tool-X是一个kali linux黑客工具安装程序。Tool-X由Rajkumar Dusad开发。在Tool-X的帮助下，您可以在Root或非Root Android设备中安装最佳黑客工具。在Tool-X中，有近240种黑客工具可供termux app和GNURoot Debian终端使用。您可以通过单击安装任何工具。Tool-X专为Termux和GNURoot Debian终端而设计。现在Tool-X可用于Ubuntu。
+https://www.kitploit.com/2019/01/tool-x-kali-linux-hacking-tool-installer.html
 
 
 
 最新-漏洞
+Linux kernel 安全漏洞
+Linux kernel是美国Linux基金会发布的开源操作系统Linux所使用的内核。
+Linux kernel 4.19.13及之前版本中的mm/mincore.c文件的mincore()的实现存在安全漏洞。本地攻击者可利用该漏洞嗅探机密信息。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-101
 
+Apache Thrift Java client library 授权问题漏洞
+Apache Thrift是美国阿帕奇（Apache）软件基金会的一个用于跨平台开发的框架。Java client library是其中的一个客户端库。
+Apache Thrift Java client library 0.5.0版本至0.11.0版本中存在授权问题漏洞。攻击者可利用该漏洞绕过安全检测。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-099
+
+Apache Thrift Node.js static web服务器访问控制错误漏洞
+Apache Thrift是美国阿帕奇（Apache）软件基金会的一个用于跨平台开发的框架。Node.js static web server是其中的一个静态Web服务器。
+Apache Thrift Node.js static web服务器0.9.2版本至0.11.0版本中存在访问控制错误漏洞。远程攻击者可利用该漏洞访问在set webservers docroot路径之外的文件。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-098
+
+WhatsApp远程内存破坏漏洞
+WhatsApp是一款目前可供iPhone手机、Android手机、Windows Phone手机、WhatsApp Messenger、Symbian手机和黑莓手机用户使用的、用于智能手机之间通讯的应用程序。
+WhatsApp 2.18.31版本存在内存破坏漏洞，攻击者可利用漏洞使受影响的应用程序崩溃,拒绝服务合法用户正常使用。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00628
+
+Microsoft Windows Subsystem for Linux本地权限提升漏洞
+Microsoft Windows Server版本1803和Windows 10都是美国微软（Microsoft）公司的产品。Microsoft Windows Server版本1803是一套服务器操作系统。Windows 10是一套个人电脑使用的操作系统。Windows Subsystem for Linux是其中的一个Linux子系统。
+Microsoft Windows Subsystem for Linux中存在权限提升漏洞，该漏洞源于程序未能正确地处理内存对象。攻击者可利用该漏洞以提升的权限执行任意代码并控制系统。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00634
+
+Microsoft DirectX Graphics Kernel本地权限提升漏洞（CNVD-2019-00631）
+Microsoft Windows Server 2019等都是美国微软（Microsoft）公司发布的操作系统。DirectX Graphics Kernel（DXGKRNL）是其中的一个图形内核驱动程序。
+Microsoft DXGKRNL中存在权限提升漏洞，该漏洞源于程序未能正确地处理内存中的对象。攻击者可通过登录系统并运行特制的应用程序利用该漏洞以提升的权限运行进程。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00631
 
 
 安全-研究
+macOS内核提权：利用CVE-2016-1828本地权限提升（Part2）
+当用户应用程序与内核驱动程序进行通信时, 它通常希望传递结构化数据对象, 如字符串、数组和字典。为了解决这一问题，libkern定义了CoreFoundation对象相对应的容器和集合类作为传递给用户空间的API。下表中概述了这些类, 它们都继承自OSObject。
+当一个CoreFoundation对象被发送到内核时, 它首先被IOCFSerialize转换为二进制或xml表示形式。然后将序列化的数据复制到内核中, 并使用OSUnserializeXML进行反序列化。如果提供的数据实际上是二进制编码, 则OSUnserializeXML调用OSUnserializeBinary。
+OSUnserializeBinary尝试对提供的数据进行解码重建原始对象。反序列化的对象通常是一个容器, 如OSDictionary其中包含多个条目。为了在集合中多次包含同一对象时最大限度地减小编码大小, 二进制编码格式支持按索引引用以前序列化的对象。因此, 解码逻辑将每个重建的对象存储在一个数组中, 以便以后索引可以引用它。
+查看源码libkernc++OSSerializeBinary.cpp，当索引在反序列化过程中引用某个条目时, 对象指针将在objsArray中查找, 存储在局部变量o中, 并引用retain方法:
+https://www.anquanke.com/post/id/169191
 
+【缺陷周话】第17期：有符号整数溢出
+1、有符号整数溢出
+C/C++中的整数类型分为有符号整数和无符号整数，其中有符号整数的最高位表示符号（正或负），其余位表示数值大小，而无符号整数则所有位都用于表示数值大小。有符号整数的取值范围为[−2n−1, 2n−1−1]，当有符号整数的值超出了有符号整数的取值范围时就会出现整数溢出，导致有符号整数溢出的重要原因之一是有符号整数的运算操作不当，常见运算 “+”、”-“、 “*”、 “/”、 “%”、 “++”、 “–” 等等，如果没有对值的范围进行判断和限制，很容易导致有符号整数溢出问题。
+2、 有符号整数溢出的危害
+有符号整数溢出将会产生数值错误，依据对错误的数值使用的位置不同（如错误的数据用于内存操作、又或者错误的数值导致循环恒为真等），将可能导致不同的安全问题，包括拒绝服务攻击、内存破坏等。
+https://www.anquanke.com/post/id/169297
 
-
+ARM汇编之堆栈溢出实战分析二(GDB)
+经过很长一段时间在azeria-labs进行的ARM基础汇编学习，学到了很多ARM汇编的基础知识、和简单的shellcode的编写，为了验证自己的学习成果，根据该网站提供的实例，做一次比较详细的逆向分析，和shellcode的实现，为自己的ARM入门学习巩固,本篇Paper是承接上一篇ARM汇编之堆栈溢出实战分析一(GDB)后针对剩余的练习例子做一个分析。
+实例下载地址：git clone https://github.com/azeria-labs/ARM-challenges.git
+调试环境：Linux raspberrypi 4.4.34+ #3 Thu Dec 1 14:44:23 IST 2016 armv6l GNU/Linux+GNU gdb (Raspbian 7.7.1+dfsg-5+rpi1) 7.7.1（这些都是按照网站教程安装的如果自己有ARM架构的操作系统也是可以的）
+https://www.anquanke.com/post/id/169186
