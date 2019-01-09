@@ -1,24 +1,91 @@
 ﻿安全-资讯
+IBM已开发第一台独立量子计算机，高速解密还会远吗？
+量子计算机所使用的计算方法，比目前计算机通用的二进制计算法更高级。它的运算能力，也超越现在世界上最顶级的超级计算机。同样1个存储位，量子计算机能存储比普通计算机更多的数据；更重要的是，量子计算机还可以用数学方法同时操作这些海量数据，节省了运行时间，极大地提高工作效率，也使得量子计算机在核爆炸地模拟，密码破译等领域，优势非常突出。量子计算机是新概念、高性能计算领域公认的发展趋势。
+子计算机所使用的计算方法，比目前计算机通用的二进制计算法更高级。它的运算能力，也超越现在世界上最顶级的超级计算机。同样1个存储位，量子计算机能存储比普通计算机更多的数据；更重要的是，量子计算机还可以用数学方法同时操作这些海量数据，节省了运行时间，极大地提高工作效率，也使得量子计算机在核爆炸地模拟，密码破译等领域，优势非常突出。量子计算机是新概念、高性能计算领域公认的发展趋势
+北京时间1月8日，据英国《金融时报》报道，IBM已开发了第一台独立的量子计算机，将一些全球最先进的科学技术集成到一个9英尺的玻璃立方体内。公司在今年的拉斯维加斯国际消费电子展上首次公开了这一名为IBM Q System One的系统。
+https://zhuanlan.kanxue.com/article-5745.htm
 
-
+谈谈目前的安全发展与现状
+中国黑客的发展是一个波折的过程，在我看来，到今天，经历了以下几个阶段:
+90年代初的起源，97到99的发展，21世纪初的黑暗，以及到了今天90年代初，是中国互联网的朦胧时期，94年，中国互联网向公众开放，那时候出现的一些人物，如马化腾、邱求伯君等相信大家已经耳熟能详了，而在那时候，一些热爱技术的青年受国外黑客技术影响，开始研究黑客技术，这就是中国黑客的开始。
+97-99年，互联网这个名词逐渐被大众所接受，黑客一词开始正式深入广大网友之中。这个时期涌现了众多的黑客。而后，98年印尼排华，一系列行为激怒了刚刚发展的中国黑客们，开始以垃圾邮件等方式攻击印尼网站；而后更有北约轰炸中国驻南联盟大使馆，举国震惊和愤怒，中国黑客又再一次的行动。
+还有之后的台湾抛出台独言论、"东史郎南京大屠杀"事件败诉等事件，均有愤怒的中国黑客做出举动。在这个时期，涌现了一大批黑客团队，如绿色兵团、中国黑客联盟、鹰派联盟、中国红客联盟等等，是中国黑客发展历程里一个黄金时代。
+https://zhuanlan.kanxue.com/article-5742.htm
 
 
 黑客-事件
-
+一大波含“税”APP来袭，就等你上钩
+2018年，有一件关乎我们切身利益的大事！税改！
+个税起征提高到5000！
+按月征收改为按年征收！
+实施六大专项扣除！
+这意味着，进入我们荷包的钱要变多啦，不过掐指一算，还真是有点复杂！让数学是体育老师教的我可咋整。
+于是相关部门贴心的为我们推出了个税APP，帮助大家计算个税。
+氮素，从1号正式实施税改以来，个税APP却因为各种问题频上热搜。
+https://www.anquanke.com/post/id/169331
 
 
 
 工具-脚本
+Aztarna - 机器人的足迹工具
+该存储库包含Alias Robotics的aztarna，一种用于机器人的足迹工具。
+Alias Robotics支持原始机器人制造商评估其安全性并提高其软件质量。绝不鼓励或促进未经授权篡改运行机器人系统。这可能会造成严重的人身伤害和物质损失。
+https://www.kitploit.com/2019/01/aztarna-footprinting-tool-for-robots.html
 
-
-
-
+Stretcher - 旨在帮助识别暴露敏感信息的开放式Elasticsearch服务器的工具
+Stretcher是一种搜索开放式弹性搜索服务器的工具。
+https://github.com/6IX7ine/stretcher
 
 最新-漏洞
+McAfee Web Gateway 7.8.2.0代理组件中的错误输入验证，以及稍后版本中的错误输入验证，允许远程攻击者通过精心设计的HTTP请求参数导致拒绝服务。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3581
+
+D-Link DIR-822 C1 before v3.11B01Beta, DIR-822- us C1 before v3.11B01Beta, DIR-850L A* before v1.21B08Beta, DIR-850L B* before v2.22B03Beta, and DIR-880L A* before v1.20B02Beta设备允许身份验证旁路。
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20675
+
+Adobe Connect信息泄露漏洞
+Adobe Connect（前称Macromedia Breeze）是美国奥多比（Adobe）公司的一套企业级的网络通讯解决方案。该方案提供网络会议、在线学习和网络研讨会等功能。 
+Adobe Connect存在信息泄露漏洞。攻击者可利用漏洞泄露敏感信息。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00765
+
+WordPress插件MapSVG Lite跨站请求伪造漏洞
+WordPress是WordPress软件基金会的一套使用PHP语言开发的博客平台，该平台支持在PHP和MySQL的服务器上架设个人博客网站。
+WordPress插件MapSVG Lite存在跨站请求伪造漏洞。允许攻击者执行管理员操作。
+http://www.cnvd.org.cn/flaw/show/CNVD-2019-00766
+
+Android 权限许可和访问控制漏洞
+Android是美国谷歌（Google）公司和开放手持设备联盟（简称OHA）共同开发的一套以Linux为基础的开源操作系统。
+Android中的Dragon BSP组件存在提权漏洞。攻击者可利用该漏洞在权限提升的进程的上下文中执行任意代码。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-184
+
+Android 权限许可和访问控制漏洞
+Android是美国谷歌（Google）公司和开放手持设备联盟（简称OHA）共同开发的一套以Linux为基础的开源操作系统。
+Android中存在提权漏洞。攻击者可利用该漏洞获取提升的权限。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-185
+
+Microsoft Jet Database Engine 安全漏洞
+Microsoft Windows 10等都是美国微软（Microsoft）公司发布的一系列操作系统。JET Database Engine是其中的一个底层数据库引擎。
+Microsoft Jet Database Engine中存在远程代码执行漏洞，该漏洞源于程序没有正确的处理内存中的对象。远程攻击者可通过诱使用户打开特制的文件利用该漏洞在用户系统上执行任意代码。以下系统版本受到影响：Microsoft Windows 10，Windows 10版本1607，Windows 10版本1703，Windows 10版本1709，Windows 10版本1803，Windows 10版本1809，Windows 7 SP1，Windows 8.1，Windows RT 8.1，Windows Server 2008 SP2，Windows Server 2008 R2 SP1，Windows Server 2012，Windows Server 2012 R2，Windows Server 2016，Windows Server 2019，Windows Server版本1709，Windows Server版本1803。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-179
+
+Microsoft Edge和ChakraCore 安全漏洞
+Microsoft Windows 10等都是美国微软（Microsoft）公司发布的一系列操作系统。Edge是其中的一个系统附带的浏览器。ChakraCore是使用在Edge的一个开源的JavaScript引擎的核心部分，也可作为单独的JavaScript引擎使用。
+Microsoft Edge和ChakraCore中存在远程代码执行漏洞。远程攻击者可利用该漏洞在当前用户的上下文中执行任意代码，造成内存损坏。以下系统版本受到影响：Microsoft Windows 10版本1703，Windows 10版本1803，Windows 10版本1809，Windows Server 2019，Windows 10版本1709，Windows 10，Windows 10版本1607，Windows Server 2016。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-178
+
+Microsoft Windows 权限许可和访问控制漏洞
+Microsoft Windows 10等都是美国微软（Microsoft）公司的产品。Microsoft Windows 10是一套供个人电脑使用的操作系统；Windows Server 2016是一套服务器操作系统。
+Microsoft Windows中存在提权漏洞，该漏洞源于程序没有正确的处理身份验证请求。攻击者可通过在用户系统上运行特制的应用程序利用该漏洞获取提升的权限。以下版本受到影响：Microsoft Windows 10，Windows 10版本1607，Windows 10版本1703，Windows 10版本1709，Windows 10版本1803，Windows 10版本1809，Windows 7 SP1，Windows 8.1，Windows RT 8.1，Windows Server 2008 SP2，Windows Server 2008 R2 SP1，Windows Server 2012，Windows Server 2012 R2，Windows Server 2016，Windows Server 2019，Windows Server版本1709，Windows Server版本1803。
+http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-201901-176
 
 
 
 安全-研究
-
-
+挖洞经验 | Facebook CDN服务器的XSS漏洞
+Facebook 和它的旗下应用 Instagram都是把照片/视频存储在Facebook自身的CDN服务器 “*.fbcdn.net” 或 “*.cdninstagram.com” 之上，然后，再通过其各个子CDN域名网站提供针对请求的内容缓存分发服务。本文中作者分享的是一个针对Facebook CDN服务器的XSS漏洞，利用该漏洞可以绕过链接中的校验机制，任意执行JS代码。
+Facebook存储在CDN服务器上的图片和视频，都在自身访问链接中包含了一个HASH串，这个HASH串目的在于对Facebook自身存储的图片或视频起到一个签名校验的保护作用，且其HASH串都是以像 ‘oh’ 或 ‘oe’ 这样的两个字母参数来赋值的。
+如果我们把其文件格式做个更改，如把.jpg改为.html，那么无疑，服务器访问就会出错。
+所以，我一开始的想法就是，是否可以把这种链接中的多余参数去掉，让它简化一下成为以下这样呢：
+但这确实有点想当然了，请求响应是: “Access Denied”。在经过一番研究之后，我找到了能针对所有图片和视频，绕过其链接中HASH串签名校验的方法，即使用户上传的某些图片视频对应的链接是过期“expired”状态，我一样可以从Facebook CDN服务器中访问到它们。
+https://www.freebuf.com/vuls/191898.html
 
